@@ -54,7 +54,8 @@ export default function About() {
                         {/* JavaScript */}
                         <div class="skill col-12 col-md-4 d-flex justify-content-around">
                             <div>
-                                <IconJavascript style={styles.skills} />
+                                {/* <img class="tech"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> */}
                             </div>
                         </div>
                         {/* Node */}

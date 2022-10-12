@@ -16,9 +16,16 @@ import NoteTaker from '../../assets/images/note-taker.png';
 import EmployeeTracker from '../../assets/images/employee-tracker.png';
 import ECommerceBackEnd from '../../assets/images/e-commerce-back-end-screenshot.png';
 import TechBlog from '../../assets/images/tech-blog-screenshot.png';
+import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils';
 
 export default function Work() {
     const styles = {
+        card: {
+            backgroundColor: 'black',
+        },
+        cardHeader: {
+            backgroundColor: 'black',
+        },
         project: {
             textAlign: 'center',
         },
@@ -35,10 +42,10 @@ export default function Work() {
 
             <div class="row justify-center justify-content-around">
                 {/* Professional portfolio */}
-                <div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <br />
                     <div class="professional-portfolio">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -81,10 +88,10 @@ export default function Work() {
                     </div>
                 </div>
                 {/* Wanderlist */}
-                <div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <br />
                     <div class="wanderlist">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -127,10 +134,10 @@ export default function Work() {
                     </div>
                 </div>
                 {/* Rig Match Me */}
-                <div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <br />
                     <div class="rig-match-me">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -173,9 +180,9 @@ export default function Work() {
                     </div>
                 </div>
                 {/* Code Refractor*/}
-                <div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="code-refractor">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -218,9 +225,9 @@ export default function Work() {
                     </div>
                 </div>
                 {/* Password Generator */}
-                <div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="password-generator">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -263,9 +270,9 @@ export default function Work() {
                     </div>
                 </div>
                 {/* Code Quiz */}
-                <div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="code-quiz">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -308,9 +315,9 @@ export default function Work() {
                     </div>
                 </div>
                 {/* Work Day Scheduler */}
-                <div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="work-day-scheduler">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -353,9 +360,9 @@ export default function Work() {
                     </div >
                 </div >
                 {/* Weather Dashboard */}
-                < div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="weather-dashboard">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -398,9 +405,9 @@ export default function Work() {
                     </div >
                 </div >
                 {/* Professional README Generator */}
-                < div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="professional-readme-generator">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -444,9 +451,9 @@ export default function Work() {
                     </div >
                 </div >
                 {/* Team Profile Generator */}
-                < div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="team-profile-generator">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -490,9 +497,9 @@ export default function Work() {
                     </div >
                 </div >
                 {/* Note Taker */}
-                < div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="note-taker">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -533,9 +540,9 @@ export default function Work() {
                     </div >
                 </div >
                 {/* Employee Tracker */}
-                < div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="employee-tracker">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -579,9 +586,9 @@ export default function Work() {
                     </div >
                 </div >
                 {/* E-Commerce Back End */}
-                < div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="e-commerce-back-end">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
@@ -625,9 +632,9 @@ export default function Work() {
                     </div >
                 </div >
                 {/* Tech Blog */}
-                < div class="card col-12 col-md-6 col-lg-4 bg-dark">
+                < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
                     <div class="tech-blog">
-                        <div class="container card-header text-center bg-dark text-light border border-1 border-light">
+                        <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
                             <div class="row align-items-center h-100">
                                 <div class="mx-auto">
                                     <div>
