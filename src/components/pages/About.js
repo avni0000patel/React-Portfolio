@@ -1,14 +1,36 @@
 import React from 'react';
 
+import Me from '../../assets/images/profilePicture.jpg';
+
+import IconJavascript from 'react-devicon/javascript/plain';
+
 export default function About() {
+    const styles = {
+        aboutMe: {
+            textAlign: 'center',
+        },
+        me: {
+            height: '150px',
+        },
+        skills: {
+            width: '80px',
+            height: '80px',
+            // filter: 'invert(99%) sepia(99%) saturate(2%) hue-rotate(296deg) brightness(108%) contrast(101%)',
+        }
+    };
     return (
         <section>
             <div id="about-me">
                 <h1 class="text-center">About Page</h1>
-                <div class="about-me">
-                    {/* <img src="./assets/images/profilePicture.jpg" class="rounded-circle img-thumbnail"
-                        alt="Avni Patel" /> */}
+                <div style={styles.aboutMe} class="about-me">
+                    <img style={styles.me} src={Me} class="rounded-circle img-thumbnail"
+                        alt="Avni Patel" />
                 </div>
+                <p class="text-center">
+                    Hello, I'm Avni Patel.
+                    <br />
+                    I'm a full stack web developer.
+                </p>
             </div>
             <div class="bio">
                 <h6 class="bio header font-weight-bold">Bio:</h6>
@@ -31,10 +53,9 @@ export default function About() {
                         </p>
                         {/* JavaScript */}
                         <div class="skill col-12 col-md-4 d-flex justify-content-around">
-                            <p>
-                                {/* <img class="tech"
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> */}
-                            </p>
+                            <div>
+                                <IconJavascript style={styles.skills} />
+                            </div>
                         </div>
                         {/* Node */}
                         <div class="skill col-12 col-md-4 d-flex justify-content-around">
@@ -102,6 +123,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
