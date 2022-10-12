@@ -11,7 +11,7 @@ export default function About() {
                 </div>
             </div>
             <div class="bio">
-                <p class="bio header font-weight-bold">Bio:</p>
+                <h6 class="bio header font-weight-bold">Bio:</h6>
                 <div class="container">
                     <div class="row justify-content-around">
                         <div class="col-12">
@@ -23,7 +23,7 @@ export default function About() {
                 </div>
             </div>
             <div class="technical-skills">
-                <p class="technical-skills header font-weight-bold">Technical Skills:</p>
+                <h6 class="technical-skills header font-weight-bold">Technical Skills:</h6>
                 <div class="container">
                     <div class="row d-flex justify-content-around">
                         <p>
@@ -68,7 +68,7 @@ export default function About() {
                 </div>
             </div>
             <div class="education">
-                <p class="education header font-weight-bold">Education:</p>
+                <h6 class="education header font-weight-bold">Education:</h6>
                 <div class="container">
                     <div class="row justify-content-around">
                         <div class="col-12">
@@ -91,7 +91,7 @@ export default function About() {
                 </div>
             </div>
             <div class="contact">
-                <p class="contact font-weight-bold">Contact Info:</p>
+                <h6 class="contact font-weight-bold">Contact Info:</h6>
                 <div class="container">
                     <div class="row justify-content-around">
                         <div class="col-12">
