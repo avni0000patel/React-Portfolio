@@ -62,7 +62,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description: In this project my professional portfolio has been created to show my skills and talents.
                                     <br />
@@ -70,12 +70,12 @@ export default function Work() {
                                     Technologies: HTML, CSS
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Professional-Portfolio">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <a style={styles.project} class="project" href="https://avni0000patel.github.io/Professional-Portfolio/">
                                         <img style={styles.img} src={Portfolio}
@@ -108,7 +108,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description: In this project we have created a website that helps travelers find a safe country to visit and find information about prerequisites for travelling to that country.
                                     <br />
@@ -116,12 +116,12 @@ export default function Work() {
                                     Technologies: HTML, CSS, Bulma, JavaScript, jQuery, jQuery UI, Travel Briefing API, Google API, Google fonts
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/KayHancock/Wanderlist">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <a style={styles.project} class="project" href="https://kayhancock.github.io/Wanderlist/">
                                         <img style={styles.img} src={Wanderlist}
@@ -154,7 +154,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description: In this project we have created an application that provides a guided tour of instruments to help steer the user towards getting properly setup for the genre of music they are interested in playing.
                                     <br />
@@ -162,12 +162,12 @@ export default function Work() {
                                     Technologies: HTML, CSS, Bootstrap, JavaScript, Node JS, Express, Express-handlebars, MySQL, Sequelize, Dotenv, Bycrypt, Connect-session-sequelize, Nodemailer
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Rig-Match-Me">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <a style={styles.project} class="project" href="https://evening-fjord-11816.herokuapp.com/">
                                         <img style={styles.img} src={RigMatchMe}
@@ -199,7 +199,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description: In this project code has been refactored to meet accessibility standards.
                                     <br />
@@ -207,12 +207,12 @@ export default function Work() {
                                     Technologies: HTML, CSS
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Code-Refractor">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <a style={styles.project} class="project" href="https://avni0000patel.github.io/Code-Refractor/">
                                         <img style={styles.img} src={Horiseon}
@@ -244,7 +244,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description: In this project I have created a password generator to improve security and protect secure data.
                                     <br />
@@ -252,12 +252,12 @@ export default function Work() {
                                     Technologies: HTML, CSS, JavaScript
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Password-Generator">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <a style={styles.project} class="project" href="https://avni0000patel.github.io/Password-Generator/">
                                         <img style={styles.img} src={PasswordGenerator}
@@ -289,7 +289,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description:  In this project I have created a code quiz because coding assessments are an important part of the interview process for developers.
                                     <br />
@@ -297,12 +297,12 @@ export default function Work() {
                                     Technologies:  HTML, CSS, JavaScript
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Code-Quiz">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <a style={styles.project} class="project" href="https://avni0000patel.github.io/Code-Quiz/">
                                         <img style={styles.img} src={CodeQuiz}
@@ -334,7 +334,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description:  In this project I have created a work day scheduler so I can manage my time effectively.
                                     <br />
@@ -342,12 +342,12 @@ export default function Work() {
                                     Technologies:  HTML, CSS, Bootstrap, JavaScript, jQuery, jQuery UI
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Work-Day-Scheduler">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <a style={styles.project} class="project" href="https://avni0000patel.github.io/Work-Day-Scheduler/">
                                         <img style={styles.img} src={WorkDayScheduler}
@@ -379,7 +379,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description:  In this project I have created a weather dashboard that uses the OpenWeather API to show the forecast for different cities.
                                     <br />
@@ -387,12 +387,12 @@ export default function Work() {
                                     Technologies:  HTML, CSS, Bootstrap, JavaScript, jQuery, jQuery UI, OpenWeatherMap API
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Weather-Dashboard">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <a style={styles.project} class="project" href="https://avni0000patel.github.io/Weather-Dashboard/">
                                         <img style={styles.img} src={WeatherDashboard}
@@ -424,7 +424,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description:  In this project I have created an application using node that creates a professional README for a user's project based on the user's input.
                                     <br />
@@ -432,12 +432,12 @@ export default function Work() {
                                     Technologies:  JavaScript, Node JS, Inquirer
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Professional-README-Generator">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <img style={styles.img} src={ProfessionalREADMEGenerator}
                                         alt="Professional README Generator" />
@@ -470,7 +470,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description:  In this project I have created a team profile generator that displays summaries for each person.
                                     <br />
@@ -478,12 +478,12 @@ export default function Work() {
                                     Technologies:  HTML, CSS, Bootstrap, JavaScript, Node JS, Inquirer, Jest
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Team-Profile-Generator">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <img style={styles.img} src={TeamProfileGenerator}
                                         alt="Team Profile Generator" />
@@ -516,7 +516,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description:  In this project I have created a Note Taker application to create and store notes.
                                     <br />
@@ -524,12 +524,12 @@ export default function Work() {
                                     Technologies:  HTML, CSS, Bootstrap, JavaScript, Node JS, Inquirer, Express, UUID
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Note-Taker">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <a style={styles.project} class="project" href="https://fathomless-dawn-16383.herokuapp.com/">
                                     <img style={styles.img} src={NoteTaker}
                                         alt="Note Taker" />
@@ -559,7 +559,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description:  In this project I have created an application that allows you to view and manage the departments, roles, and employees in a company.
                                     <br />
@@ -567,12 +567,12 @@ export default function Work() {
                                     Technologies:  JavaScript, Node JS, Inquirer, Console Table, MySQL
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Employee-Tracker">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <img style={styles.img} src={EmployeeTracker}
                                         alt="Employee Tracker" />
@@ -605,7 +605,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description:  In this project I have built the back end for an e-commerce site.
                                     <br />
@@ -613,12 +613,12 @@ export default function Work() {
                                     Technologies:  JavaScript, Node JS, Express, MySQL, Sequelize, Dotenv
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/E-commerce-Back-End">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <img style={styles.img} src={ECommerceBackEnd}
                                         alt="E-commerce Back End" />
@@ -651,7 +651,7 @@ export default function Work() {
                             id="justify-tab"
                             className="mb-3"
                         >
-                            <Tab eventKey="description" title="Description">
+                            <Tab eventKey="description" title="Description" label="Description">
                                 <p class="description text-light">
                                     Description:  In this project I have created a tech blog that is a CMS-style blog site similar to a Wordpress site.
                                     <br />
@@ -659,12 +659,12 @@ export default function Work() {
                                     Technologies:  HTML, CSS, Bootstrap, JavaScript, Node JS, Express, Express-handlebars, MySQL, Sequelize, Dotenv, Bycrypt, Connect-session-sequelize
                                 </p>
                             </Tab>
-                            <Tab eventKey="github" title="Github">
+                            <Tab eventKey="github" title="Github" label="GitHub">
                                 <a class="github" href="https://github.com/avni0000patel/Tech-Blog">
                                     <p class="text-light">Click here to see the github repo for this project!</p>
                                 </a>
                             </Tab>
-                            <Tab eventKey="project" title="Project">
+                            <Tab eventKey="project" title="Project" label="Project">
                                 <div style={styles.project}>
                                     <a style={styles.project} class="project" href="https://boiling-tor-98375.herokuapp.com/">
                                         <img style={styles.img} src={TechBlog}
