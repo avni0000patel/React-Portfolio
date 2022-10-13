@@ -3,7 +3,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
     const styles = {
         nav: {
-            backgroundColor: '#66666E',
+            backgroundColor: '#274C77',
         },
     }
     return (

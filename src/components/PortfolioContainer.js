@@ -8,7 +8,7 @@ import Resume from './pages/Resume'
 export default function PortfolioContainer() {
     const styles = {
         color: {
-            backgroundColor: '#000000',
+            backgroundColor: '#6096BA',
             color: '#ffffff',
         },
     }

@@ -20,10 +20,10 @@ import TechBlog from '../../assets/images/tech-blog-screenshot.png';
 export default function Work() {
     const styles = {
         card: {
-            backgroundColor: 'black',
+            backgroundColor: '#6096ba',
         },
         cardHeader: {
-            backgroundColor: '#66666E',
+            backgroundColor: '#274C77',
         },
         project: {
             textAlign: 'center',
