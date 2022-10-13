@@ -1,8 +1,13 @@
 import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
+    const styles = {
+        nav: {
+            backgroundColor: '#66666E',
+        },
+    }
     return (
-        <ul className="nav nav-tabs">
+        <ul style={styles.nav} className="nav nav-tabs">
             <li className="nav-item">
                 <a
                     href="#about"

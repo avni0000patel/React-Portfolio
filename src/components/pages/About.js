@@ -2,8 +2,6 @@ import React from 'react';
 
 import Me from '../../assets/images/profilePicture.jpg';
 
-import IconJavascript from 'react-devicon/javascript/plain';
-
 export default function About() {
     const styles = {
         aboutMe: {

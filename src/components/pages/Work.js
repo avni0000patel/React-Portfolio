@@ -16,7 +16,6 @@ import NoteTaker from '../../assets/images/note-taker.png';
 import EmployeeTracker from '../../assets/images/employee-tracker.png';
 import ECommerceBackEnd from '../../assets/images/e-commerce-back-end-screenshot.png';
 import TechBlog from '../../assets/images/tech-blog-screenshot.png';
-import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils';
 
 export default function Work() {
     const styles = {
@@ -24,7 +23,7 @@ export default function Work() {
             backgroundColor: 'black',
         },
         cardHeader: {
-            backgroundColor: 'black',
+            backgroundColor: '#66666E',
         },
         project: {
             textAlign: 'center',
