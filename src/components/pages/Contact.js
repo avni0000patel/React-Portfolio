@@ -1,69 +1,69 @@
-import React from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
 
-class App extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: '',
-            email: '',
-            message: ''
-        }
-    }
-    handleSubmit(event) {
-        event.preventDefault();
-        axios({
-            method: "POST",
-            url: "http://localhost:3000/send",
-            data: this.state
-        }).then((response) => {
-            if (response.data.status === 'success') {
-                alert("Message Sent.");
-                this.resetForm()
-            } else if (response.data.status === 'fail') {
-                alert("Message failed to send.")
-            }
-        })
-    }
-    resetForm() {
-        this.setState({ name: '', email: '', message: '' })
-    }
-    render() {
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/2ffb6220-4aa0-11ed-8970-6943e4ac8982";
+
+export default function Contact() {
+    const [submitted, setSubmitted] = useState(false);
+    const handleSubmit = () => {
+        setTimeout(() => {
+            setSubmitted(true);
+        }, 100);
+    };
+
+    if (submitted) {
         return (
-            <section>
-                <div id="contact" class="contact">
-                    <h1 class="text-center">Contact Page</h1>
-                </div>
-                <div className="App">
-                    <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-                        <div className="form-group">
-                            <label htmlFor="name">Name</label>
-                            <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="exampleInputEmail1">Email address</label>
-                            <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="message">Message</label>
-                            <textarea className="form-control" rows="7" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-                        </div>
-                        <br />
-                        <button type="submit" className="btn btn-primary">Submit</button>
-                    </form>
-                    <br />
-                </div>
-            </section>
+            <div>Thank you!</div>
         );
     }
-    onNameChange(event) {
-        this.setState({ name: event.target.value })
-    }
-    onEmailChange(event) {
-        this.setState({ email: event.target.value })
-    }
-    onMessageChange(event) {
-        this.setState({ message: event.target.value })
-    }
-}
-export default App;
+
+    return (
+        <section>
+            <div id="work">
+                <h1 class="text-center">Contact Page</h1>
+            </div>
+            <form
+                id="contact-form"
+                action={FORM_ENDPOINT}
+                onSubmit={handleSubmit}
+                method="POST"
+                target="_blank"
+            >
+                <div className="form-group">
+                    <label htmlFor="name">Name</label>
+                    <input
+                        type="text"
+                        placeholder="Name"
+                        name="name"
+                        className="form-control"
+                        required
+                    />
+                </div>
+                <div className="form-group">
+                    <label htmlFor="email">Email</label>
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        name="email"
+                        className="form-control"
+                        required
+                    />
+                </div>
+                <div className="form-group">
+                    <label htmlFor="message">Message</label>
+                    <textarea
+                        placeholder="Message"
+                        name="message"
+                        className="form-control"
+                        rows="5"
+                        required
+                    />
+                </div>
+                <br />
+                <div>
+                    <button type="submit" className="btn btn-primary">Submit</button>
+                </div>
+                <br />
+            </form >
+        </section >
+    );
+};
