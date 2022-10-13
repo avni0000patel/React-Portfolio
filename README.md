@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# React Portfolio
+
+## GitHub Link
+https://github.com/avni0000patel
+
+## GitHub Pages Link
+https://avni0000patel.github.io/React-Portfolio/
+
+## Technologies Used
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
