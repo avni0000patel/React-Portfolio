@@ -12,6 +12,7 @@ export default function PortfolioContainer() {
             backgroundColor: '#6096BA',
             color: '#ffffff',
             minHeight: '100vh',
+            fontFamily: 'Playfair Display'
         },
     }
     const [currentPage, setCurrentPage] = useState('About');

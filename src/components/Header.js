@@ -9,6 +9,11 @@ function NavTabs({ currentPage, handlePageChange }) {
             width: '100%',
             zIndex: '1',
         },
+        float: {
+            position: 'absolute',
+            right: '25px',
+            marginTop: '5px',
+        }
     }
     return (
         <header>
@@ -53,9 +58,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                         Resume
                     </a>
                 </li>
-                {/* <div>
-                    <h3 className="float-end">Avni Patel</h3>
-                </div> */}
+                <div style={styles.float}>
+                    <h3>Avni Patel</h3>
+                </div>
             </ul>
         </header>
     );
