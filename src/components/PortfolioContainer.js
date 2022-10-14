@@ -8,9 +8,10 @@ import Resume from './pages/Resume'
 
 export default function PortfolioContainer() {
     const styles = {
-        color: {
+        all: {
             backgroundColor: '#6096BA',
             color: '#ffffff',
+            height: '100vh',
         },
     }
     const [currentPage, setCurrentPage] = useState('About');
@@ -32,7 +33,7 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div style={styles.color}>
+        <div style={styles.all}>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer />
