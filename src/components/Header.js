@@ -6,7 +6,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             backgroundColor: '#274C77',
             position: 'fixed',
             top: '0',
-            width: '100%'
+            width: '100%',
         },
     }
     return (

@@ -4,6 +4,10 @@ import Me from '../../assets/images/profilePicture.jpg';
 
 export default function About() {
     const styles = {
+        top: {
+            paddingTop: '40px',
+            paddingBottom: '40px',
+        },
         aboutMe: {
             textAlign: 'center',
         },
@@ -15,7 +19,7 @@ export default function About() {
         }
     };
     return (
-        <section>
+        <section style={styles.top}>
             <div className="about-me">
                 <br />
                 <h1 className="text-center">About Page</h1>

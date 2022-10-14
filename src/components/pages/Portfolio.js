@@ -19,6 +19,10 @@ import TechBlog from '../../assets/images/tech-blog-screenshot.png';
 
 export default function Portfolio() {
     const styles = {
+        top: {
+            paddingTop: '40px',
+            paddingBottom: '40px',
+        },
         card: {
             backgroundColor: '#6096ba',
         },
@@ -34,7 +38,7 @@ export default function Portfolio() {
         }
     }
     return (
-        <section>
+        <section style={styles.top}>
             <div id="portfolio" className="portfolio">
                 <br />
                 <h1 className="text-center">Portfolio Page</h1>

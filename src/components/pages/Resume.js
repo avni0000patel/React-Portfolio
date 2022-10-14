@@ -2,8 +2,14 @@ import React from 'react';
 import PDF from '../../assets/Avni_Patel_Resume.pdf'
 
 export default function Resume() {
+    const styles = {
+        top: {
+            paddingTop: '40px',
+            paddingBottom: '40px',
+        },
+    }
     return (
-        <section>
+        <section style={styles.top}>
             <div className="resume">
                 <br />
                 <h1 className="text-center">Resume Page</h1>

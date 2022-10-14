@@ -3,6 +3,12 @@ import React, { useState } from 'react';
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/2ffb6220-4aa0-11ed-8970-6943e4ac8982";
 
 export default function Contact() {
+    const styles = {
+        top: {
+            paddingTop: '40px',
+            paddingBottom: '40px',
+        },
+    }
     const [submitted, setSubmitted] = useState(false);
     const handleSubmit = () => {
         setTimeout(() => {
@@ -17,7 +23,7 @@ export default function Contact() {
     }
 
     return (
-        <section>
+        <section style={styles.top}>
             <div className="portfolio">
                 <br />
                 <h1 className="text-center">Contact Page</h1>
