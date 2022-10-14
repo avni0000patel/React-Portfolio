@@ -17,6 +17,7 @@ export default function About() {
     return (
         <section>
             <div className="about-me">
+                <br />
                 <h1 className="text-center">About Page</h1>
                 <br />
             </div>

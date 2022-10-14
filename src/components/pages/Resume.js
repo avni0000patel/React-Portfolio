@@ -5,6 +5,7 @@ export default function Resume() {
     return (
         <section>
             <div id="resume">
+                <br />
                 <h1 class="text-center">Resume Page</h1>
                 <br />
             </div>

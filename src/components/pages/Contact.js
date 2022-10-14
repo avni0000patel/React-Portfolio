@@ -19,6 +19,7 @@ export default function Contact() {
     return (
         <section>
             <div id="portfolio">
+                <br />
                 <h1 class="text-center">Contact Page</h1>
                 <br />
             </div>
