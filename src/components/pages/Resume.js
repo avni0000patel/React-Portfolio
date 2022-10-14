@@ -27,28 +27,6 @@ export default function Resume() {
                 </div>
             </div>
             <br />
-            <div className="education">
-                <div className="container">
-                    <div className="row justify-content-around">
-                        <div className="col-12">
-                            <p>
-                                University of Pennsylvania
-                                <br />
-                                Full Stack Web Development
-                            </p>
-                        </div>
-                    </div>
-                    <div className="row justify-content-around">
-                        <div className="col-12">
-                            <p>
-                                Siena College
-                                <br />
-                                Bachelor of Science in Finance, Minor in Mathematics
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section >
     );
 }

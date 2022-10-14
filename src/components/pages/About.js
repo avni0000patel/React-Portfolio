@@ -22,7 +22,7 @@ export default function About() {
                 <br />
             </div>
             <div>
-                <div style={styles.aboutMe} class="about-me">
+                <div style={styles.aboutMe} className="about-me">
                     <img style={styles.me} src={Me} className="rounded-circle img-thumbnail"
                         alt="Avni Patel" />
                 </div>

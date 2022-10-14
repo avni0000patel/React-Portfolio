@@ -35,21 +35,21 @@ export default function Portfolio() {
     }
     return (
         <section>
-            <div id="portfolio" class="portfolio">
+            <div id="portfolio" className="portfolio">
                 <br />
-                <h1 class="text-center">Portfolio Page</h1>
+                <h1 className="text-center">Portfolio Page</h1>
                 <br />
             </div>
-            <div class="portfolio">
-                <div class="container">
-                    <div class="row justify-center justify-content-around">
+            <div className="portfolio">
+                <div className="container">
+                    <div className="row justify-center justify-content-around">
                         {/* Professional portfolio */}
-                        <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div class="professional-portfolio">
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                            <div className="professional-portfolio">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Professional Portfolio
                                             </div>
@@ -66,7 +66,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description: In this project my professional portfolio has been created to show my skills and talents.
                                             <br />
                                             <br />
@@ -74,13 +74,13 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Professional-Portfolio">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Professional-Portfolio">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} class="project" href="https://avni0000patel.github.io/Professional-Portfolio/">
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Professional-Portfolio/">
                                                 <img style={styles.img} src={ProfessionalPortfolio}
                                                     alt="Professional Portfolio" />
                                             </a>
@@ -90,12 +90,12 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Wanderlist */}
-                        <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div class="wanderlist">
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                            <div className="wanderlist">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Wanderlist
                                             </div>
@@ -112,7 +112,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description: In this project we have created a website that helps travelers find a safe country to visit and find information about prerequisites for travelling to that country.
                                             <br />
                                             <br />
@@ -120,13 +120,13 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/KayHancock/Wanderlist">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/KayHancock/Wanderlist">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} class="project" href="https://kayhancock.github.io/Wanderlist/">
+                                            <a style={styles.project} className="project" href="https://kayhancock.github.io/Wanderlist/">
                                                 <img style={styles.img} src={Wanderlist}
                                                     alt="Wanderlist" />
                                             </a>
@@ -136,12 +136,12 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Rig Match Me */}
-                        <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div class="rig-match-me">
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                            <div className="rig-match-me">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Rig Match Me
                                             </div>
@@ -158,7 +158,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description: In this project we have created an application that provides a guided tour of instruments to help steer the user towards getting properly setup for the genre of music they are interested in playing.
                                             <br />
                                             <br />
@@ -166,13 +166,13 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Rig-Match-Me">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Rig-Match-Me">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} class="project" href="https://evening-fjord-11816.herokuapp.com/">
+                                            <a style={styles.project} className="project" href="https://evening-fjord-11816.herokuapp.com/">
                                                 <img style={styles.img} src={RigMatchMe}
                                                     alt="Rig Match Me" />
                                             </a>
@@ -182,12 +182,12 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Code Refractor*/}
-                        <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="code-refractor">
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="code-refractor">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Code Refractor
                                             </div>
@@ -204,7 +204,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description: In this project code has been refactored to meet accessibility standards.
                                             <br />
                                             <br />
@@ -212,13 +212,13 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Code-Refractor">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Code-Refractor">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} class="project" href="https://avni0000patel.github.io/Code-Refractor/">
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Code-Refractor/">
                                                 <img style={styles.img} src={Horiseon}
                                                     alt="Horiseon Website" />
                                             </a>
@@ -228,12 +228,12 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Password Generator */}
-                        <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="password-generator">
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="password-generator">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Password Generator
                                             </div>
@@ -250,7 +250,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description: In this project I have created a password generator to improve security and protect secure data.
                                             <br />
                                             <br />
@@ -258,13 +258,13 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Password-Generator">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Password-Generator">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} class="project" href="https://avni0000patel.github.io/Password-Generator/">
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Password-Generator/">
                                                 <img style={styles.img} src={PasswordGenerator}
                                                     alt="Password Generator" />
                                             </a>
@@ -274,12 +274,12 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Code Quiz */}
-                        <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="code-quiz">
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="code-quiz">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Code Quiz
                                             </div>
@@ -296,7 +296,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description:  In this project I have created a code quiz because coding assessments are an important part of the interview process for developers.
                                             <br />
                                             <br />
@@ -304,13 +304,13 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Code-Quiz">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Code-Quiz">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} class="project" href="https://avni0000patel.github.io/Code-Quiz/">
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Code-Quiz/">
                                                 <img style={styles.img} src={CodeQuiz}
                                                     alt="Code Quiz" />
                                             </a>
@@ -320,12 +320,12 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Work Day Scheduler */}
-                        <div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="work-day-scheduler">
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="work-day-scheduler">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Work Day Scheduler
                                             </div>
@@ -342,7 +342,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description:  In this project I have created a work day scheduler so I can manage my time effectively.
                                             <br />
                                             <br />
@@ -350,13 +350,13 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Work-Day-Scheduler">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Work-Day-Scheduler">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} class="project" href="https://avni0000patel.github.io/Work-Day-Scheduler/">
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Work-Day-Scheduler/">
                                                 <img style={styles.img} src={WorkDayScheduler}
                                                     alt="Work Day Scheduler" />
                                             </a>
@@ -366,12 +366,12 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Weather Dashboard */}
-                        < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="weather-dashboard">
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="weather-dashboard">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Weather Dashboard
                                             </div>
@@ -388,7 +388,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description:  In this project I have created a weather dashboard that uses the OpenWeather API to show the forecast for different cities.
                                             <br />
                                             <br />
@@ -396,13 +396,13 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Weather-Dashboard">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Weather-Dashboard">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} class="project" href="https://avni0000patel.github.io/Weather-Dashboard/">
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Weather-Dashboard/">
                                                 <img style={styles.img} src={WeatherDashboard}
                                                     alt="Weather Dashboard" />
                                             </a>
@@ -412,12 +412,12 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Professional README Generator */}
-                        < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="professional-readme-generator">
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="professional-readme-generator">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Professional README Generator
                                             </div>
@@ -434,7 +434,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description:  In this project I have created an application using node that creates a professional README for a user's project based on the user's input.
                                             <br />
                                             <br />
@@ -442,8 +442,8 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Professional-README-Generator">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Professional-README-Generator">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -451,7 +451,7 @@ export default function Portfolio() {
                                             <img style={styles.img} src={ProfessionalREADMEGenerator}
                                                 alt="Professional README Generator" />
                                         </div>
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Note:  Application is not deployed
                                         </p>
                                     </Tab>
@@ -459,12 +459,12 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Team Profile Generator */}
-                        < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="team-profile-generator">
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="team-profile-generator">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Team Profile Generator
                                             </div>
@@ -481,7 +481,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description:  In this project I have created a team profile generator that displays summaries for each person.
                                             <br />
                                             <br />
@@ -489,8 +489,8 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Team-Profile-Generator">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Team-Profile-Generator">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -498,7 +498,7 @@ export default function Portfolio() {
                                             <img style={styles.img} src={TeamProfileGenerator}
                                                 alt="Team Profile Generator" />
                                         </div>
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Note:  Application is not deployed
                                         </p>
                                     </Tab>
@@ -506,12 +506,12 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Note Taker */}
-                        < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="note-taker">
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="note-taker">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Note Taker
                                             </div>
@@ -528,7 +528,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description:  In this project I have created a Note Taker application to create and store notes.
                                             <br />
                                             <br />
@@ -536,12 +536,12 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Note-Taker">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Note-Taker">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
-                                        <a style={styles.project} class="project" href="https://fathomless-dawn-16383.herokuapp.com/">
+                                        <a style={styles.project} className="project" href="https://fathomless-dawn-16383.herokuapp.com/">
                                             <img style={styles.img} src={NoteTaker}
                                                 alt="Note Taker" />
                                         </a>
@@ -550,12 +550,12 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Employee Tracker */}
-                        < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="employee-tracker">
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="employee-tracker">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Employee Tracker
                                             </div>
@@ -572,7 +572,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description:  In this project I have created an application that allows you to view and manage the departments, roles, and employees in a company.
                                             <br />
                                             <br />
@@ -580,8 +580,8 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Employee-Tracker">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Employee-Tracker">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -589,7 +589,7 @@ export default function Portfolio() {
                                             <img style={styles.img} src={EmployeeTracker}
                                                 alt="Employee Tracker" />
                                         </div>
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Note:  Application is not deployed
                                         </p>
                                     </Tab>
@@ -597,12 +597,12 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* E-Commerce Back End */}
-                        < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="e-commerce-back-end">
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="e-commerce-back-end">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 E-commerce Back End
                                             </div>
@@ -619,7 +619,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description:  In this project I have built the back end for an e-commerce site.
                                             <br />
                                             <br />
@@ -627,8 +627,8 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/E-commerce-Back-End">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/E-commerce-Back-End">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -636,7 +636,7 @@ export default function Portfolio() {
                                             <img style={styles.img} src={ECommerceBackEnd}
                                                 alt="E-commerce Back End" />
                                         </div>
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Note:  Application is not deployed
                                         </p>
                                     </Tab>
@@ -644,12 +644,12 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Tech Blog */}
-                        < div style={styles.card} class="card col-12 col-md-6 col-lg-4">
-                            <div class="tech-blog">
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="tech-blog">
                                 <br />
-                                <div style={styles.cardHeader} class="container card-header text-center text-light border border-1 border-light">
-                                    <div class="row align-items-center h-100">
-                                        <div class="mx-auto">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
                                             <div>
                                                 Tech Blog
                                             </div>
@@ -666,7 +666,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p class="description text-light">
+                                        <p className="description text-light">
                                             Description:  In this project I have created a tech blog that is a CMS-style blog site similar to a Wordpress site.
                                             <br />
                                             <br />
@@ -674,13 +674,13 @@ export default function Portfolio() {
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a class="github" href="https://github.com/avni0000patel/Tech-Blog">
-                                            <p class="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/Tech-Blog">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} class="project" href="https://boiling-tor-98375.herokuapp.com/">
+                                            <a style={styles.project} className="project" href="https://boiling-tor-98375.herokuapp.com/">
                                                 <img style={styles.img} src={TechBlog}
                                                     alt="Tech Blog" />
                                             </a>
