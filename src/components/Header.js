@@ -2,13 +2,16 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
     const styles = {
-        nav: {
+        header: {
             backgroundColor: '#274C77',
+            position: 'fixed',
+            top: '0',
+            width: '100%'
         },
     }
     return (
         <header>
-            <ul style={styles.nav} className="nav nav-tabs">
+            <ul style={styles.header} className="nav nav-tabs">
                 <li className="nav-item">
                     <a
                         href="#about"
