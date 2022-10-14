@@ -4,22 +4,22 @@ import PDF from '../../assets/Avni_Patel_Resume.pdf'
 export default function Resume() {
     return (
         <section>
-            <div id="resume">
+            <div className="resume">
                 <br />
-                <h1 class="text-center">Resume Page</h1>
+                <h1 className="text-center">Resume Page</h1>
                 <br />
             </div>
-            <div class="download">
-                <div class="container">
-                    <div class="row justify-content-around">
+            <div className="download">
+                <div className="container">
+                    <div className="row justify-content-around">
                         <a href={PDF}>Click here to download resume!</a>
                     </div>
                 </div>
             </div>
             <br />
-            <div class="technical-skills">
-                <div class="container">
-                    <div class="row d-flex justify-content-around">
+            <div className="technical-skills">
+                <div className="container">
+                    <div className="row d-flex justify-content-around">
                         <div>
                             JavaScript, Node, SQL, MongoDB, React and other technologies.
                         </div>
@@ -27,10 +27,10 @@ export default function Resume() {
                 </div>
             </div>
             <br />
-            <div class="education">
-                <div class="container">
-                    <div class="row justify-content-around">
-                        <div class="col-12">
+            <div className="education">
+                <div className="container">
+                    <div className="row justify-content-around">
+                        <div className="col-12">
                             <p>
                                 University of Pennsylvania
                                 <br />
@@ -38,8 +38,8 @@ export default function Resume() {
                             </p>
                         </div>
                     </div>
-                    <div class="row justify-content-around">
-                        <div class="col-12">
+                    <div className="row justify-content-around">
+                        <div className="col-12">
                             <p>
                                 Siena College
                                 <br />
