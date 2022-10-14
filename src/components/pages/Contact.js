@@ -21,49 +21,62 @@ export default function Contact() {
             <div id="work">
                 <h1 class="text-center">Contact Page</h1>
             </div>
-            <form
-                id="contact-form"
-                action={FORM_ENDPOINT}
-                onSubmit={handleSubmit}
-                method="POST"
-                target="_blank"
-            >
-                <div className="form-group">
-                    <label htmlFor="name">Name</label>
-                    <input
-                        type="text"
-                        placeholder="Name"
-                        name="name"
-                        className="form-control"
-                        required
-                    />
+            <div class="contact">
+                {/* <h6 class="contact font-weight-bold">Contact Info:</h6> */}
+                <div class="container">
+                    <div class="row justify-content-around">
+                        <div class="col-12">
+                            <p>
+                                Feel free to reach out to me via email: avni0000patel@gmail.com
+                            </p>
+                            <form
+                                id="contact-form"
+                                action={FORM_ENDPOINT}
+                                onSubmit={handleSubmit}
+                                method="POST"
+                                target="_blank"
+                            >
+                                <div className="form-group">
+                                    <label htmlFor="name">Name</label>
+                                    <input
+                                        type="text"
+                                        placeholder="Name"
+                                        name="name"
+                                        className="form-control"
+                                        required
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="email">Email</label>
+                                    <input
+                                        type="email"
+                                        placeholder="Email"
+                                        name="email"
+                                        className="form-control"
+                                        required
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="message">Message</label>
+                                    <textarea
+                                        placeholder="Message"
+                                        name="message"
+                                        className="form-control"
+                                        rows="5"
+                                        required
+                                    />
+                                </div>
+                                <br />
+                                <div>
+                                    <button type="submit" className="btn btn-primary">Submit</button>
+                                </div>
+                                <br />
+                            </form >
+                        </div>
+                    </div>
                 </div>
-                <div className="form-group">
-                    <label htmlFor="email">Email</label>
-                    <input
-                        type="email"
-                        placeholder="Email"
-                        name="email"
-                        className="form-control"
-                        required
-                    />
-                </div>
-                <div className="form-group">
-                    <label htmlFor="message">Message</label>
-                    <textarea
-                        placeholder="Message"
-                        name="message"
-                        className="form-control"
-                        rows="5"
-                        required
-                    />
-                </div>
-                <br />
-                <div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
-                </div>
-                <br />
-            </form >
+            </div>
+
         </section >
     );
 };
