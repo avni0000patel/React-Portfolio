@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
     const styles = {
-        color: {
+        footer: {
             backgroundColor: '#274C77',
             textAlign: "center",
             position: "fixed",
@@ -13,7 +13,7 @@ export default function Footer() {
     };
     return (
         <div>
-            <footer style={styles.color}>Insert footer contents here</footer>
+            <footer style={styles.footer}>Insert footer contents here</footer>
         </div>
     );
 }
