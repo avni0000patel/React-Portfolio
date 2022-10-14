@@ -18,15 +18,15 @@ export default function Contact() {
 
     return (
         <section>
-            <div id="portfolio">
+            <div className="portfolio">
                 <br />
-                <h1 class="text-center">Contact Page</h1>
+                <h1 className="text-center">Contact Page</h1>
                 <br />
             </div>
-            <div class="contact">
-                <div class="container">
-                    <div class="row justify-content-around">
-                        <div class="col-12">
+            <div className="contact">
+                <div className="container">
+                    <div className="row justify-content-around">
+                        <div className="col-12">
                             <p>
                                 Feel free to reach out to me via email: avni0000patel@gmail.com
                             </p>
