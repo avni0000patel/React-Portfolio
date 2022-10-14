@@ -27,7 +27,7 @@ export default function Resume() {
                 <div className="container">
                     <div className="row d-flex justify-content-around">
                         <div>
-                            JavaScript, Node, SQL, MongoDB, React and other technologies.
+                            Git, HTML, CSS, JavaScript, Bootstrap, The DOM, APIs, jQuery, JSON, AJAX, Node, ES6, Object-Oriented Programming, Express, MySQL, MVC paradigm, Sequelize, Testing, and Agile Development, NoSQL, React, MERN Stack, and fundamentals in Computer Science.
                         </div>
                     </div>
                 </div>
