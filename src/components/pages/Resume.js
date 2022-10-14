@@ -6,6 +6,7 @@ export default function Resume() {
         <section>
             <div id="resume">
                 <h1 class="text-center">Resume Page</h1>
+                <br />
             </div>
             <div class="download">
                 {/* <h6 class="resume header font-weight-bold">Resume:</h6> */}

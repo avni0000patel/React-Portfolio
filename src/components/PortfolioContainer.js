@@ -11,7 +11,7 @@ export default function PortfolioContainer() {
         all: {
             backgroundColor: '#6096BA',
             color: '#ffffff',
-            height: '100vh',
+            minHeight: '100vh',
         },
     }
     const [currentPage, setCurrentPage] = useState('About');

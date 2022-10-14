@@ -37,6 +37,7 @@ export default function Work() {
         <section>
             <div id="work" class="work">
                 <h1 class="text-center">Work Page</h1>
+                <br />
             </div>
             <div class="work">
                 <div class="container">

@@ -20,6 +20,7 @@ export default function Contact() {
         <section>
             <div id="work">
                 <h1 class="text-center">Contact Page</h1>
+                <br />
             </div>
             <div class="contact">
                 {/* <h6 class="contact font-weight-bold">Contact Info:</h6> */}
