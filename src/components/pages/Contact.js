@@ -9,6 +9,19 @@ export default function Contact() {
             paddingBottom: '40px',
         },
     }
+
+    const [formInput, setFormInput] = useState({
+        fullname: '',
+        email: '',
+        message: ''
+    });
+
+    const handleChange = (event) => {
+        const { name, value } = event.target;
+        console.log(`the name of the field being types in is ${name}, it's value is ${value}`)
+        setFormInput(priev => ({ ...priev, [name]: value }))
+    };
+
     const [submitted, setSubmitted] = useState(false);
     const handleSubmit = () => {
         setTimeout(() => {
@@ -44,13 +57,15 @@ export default function Contact() {
                                 target="_blank"
                             >
                                 <div className="form-group">
-                                    <label htmlFor="name">Name</label>
+                                    <label htmlFor="fullname">Full Name</label>
                                     <input
                                         type="text"
-                                        placeholder="Name"
-                                        name="name"
+                                        placeholder="Full Name"
+                                        name="fullname"
                                         className="form-control"
                                         required
+                                        value={formInput.name}
+                                        onChange={handleChange}
                                     />
                                 </div>
                                 <div className="form-group">
@@ -61,6 +76,8 @@ export default function Contact() {
                                         name="email"
                                         className="form-control"
                                         required
+                                        value={formInput.email}
+                                        onChange={handleChange}
                                     />
                                 </div>
                                 <div className="form-group">
@@ -71,6 +88,8 @@ export default function Contact() {
                                         className="form-control"
                                         rows="5"
                                         required
+                                        value={formInput.message}
+                                        onChange={handleChange}
                                     />
                                 </div>
                                 <br />
