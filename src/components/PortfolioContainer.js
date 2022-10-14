@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
@@ -34,6 +35,7 @@ export default function PortfolioContainer() {
         <div style={styles.color}>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
     );
 }
