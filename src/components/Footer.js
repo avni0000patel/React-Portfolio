@@ -27,10 +27,10 @@ export default function Footer() {
                     <BsGoogle style={styles.icons} className='ms-3' />
                 </a>
                 <a class="contact" href="https://www.linkedin.com/in/avni-patel0000/">
-                    <BsLinkedin style={styles.icons} className='ms-3' width={100} height={100} />
+                    <BsLinkedin style={styles.icons} className='ms-3' />
                 </a>
                 <a class="contact" href="https://github.com/avni0000patel">
-                    <BsGithub style={styles.icons} className='ms-3' width={100} height={100} />
+                    <BsGithub style={styles.icons} className='ms-3' />
                 </a>
             </footer >
         </div >
