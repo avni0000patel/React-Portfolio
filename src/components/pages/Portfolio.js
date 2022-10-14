@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Tabs, Tab } from 'react-bootstrap-tabs';
 
-import Portfolio from '../../assets/images/portfolio.png';
+import ProfessionalPortfolio from '../../assets/images/portfolio.png';
 import Wanderlist from '../../assets/images/wanderlist.png';
 import RigMatchMe from '../../assets/images/rig-match-me-screenshot.png';
 import Horiseon from '../../assets/images/challenge01.png'
@@ -17,7 +17,7 @@ import EmployeeTracker from '../../assets/images/employee-tracker.png';
 import ECommerceBackEnd from '../../assets/images/e-commerce-back-end-screenshot.png';
 import TechBlog from '../../assets/images/tech-blog-screenshot.png';
 
-export default function Work() {
+export default function Portfolio() {
     const styles = {
         card: {
             backgroundColor: '#6096ba',
@@ -35,11 +35,11 @@ export default function Work() {
     }
     return (
         <section>
-            <div id="work" class="work">
-                <h1 class="text-center">Work Page</h1>
+            <div id="portfolio" class="portfolio">
+                <h1 class="text-center">Portfolio Page</h1>
                 <br />
             </div>
-            <div class="work">
+            <div class="portfolio">
                 <div class="container">
                     <div class="row justify-center justify-content-around">
                         {/* Professional portfolio */}
@@ -80,7 +80,7 @@ export default function Work() {
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
                                             <a style={styles.project} class="project" href="https://avni0000patel.github.io/Professional-Portfolio/">
-                                                <img style={styles.img} src={Portfolio}
+                                                <img style={styles.img} src={ProfessionalPortfolio}
                                                     alt="Professional Portfolio" />
                                             </a>
                                         </div>
