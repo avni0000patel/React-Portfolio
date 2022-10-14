@@ -10,7 +10,6 @@ export default function Resume() {
                 <br />
             </div>
             <div class="download">
-                {/* <h6 class="resume header font-weight-bold">Resume:</h6> */}
                 <div class="container">
                     <div class="row justify-content-around">
                         <a href={PDF}>Click here to download resume!</a>
@@ -19,7 +18,6 @@ export default function Resume() {
             </div>
             <br />
             <div class="technical-skills">
-                {/* <h6 class="technical-skills header font-weight-bold">Technical Skills:</h6> */}
                 <div class="container">
                     <div class="row d-flex justify-content-around">
                         <div>
@@ -30,7 +28,6 @@ export default function Resume() {
             </div>
             <br />
             <div class="education">
-                {/* <h6 class="education header font-weight-bold">Education:</h6> */}
                 <div class="container">
                     <div class="row justify-content-around">
                         <div class="col-12">

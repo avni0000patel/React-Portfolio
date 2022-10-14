@@ -24,7 +24,6 @@ export default function Contact() {
                 <br />
             </div>
             <div class="contact">
-                {/* <h6 class="contact font-weight-bold">Contact Info:</h6> */}
                 <div class="container">
                     <div class="row justify-content-around">
                         <div class="col-12">

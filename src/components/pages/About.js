@@ -35,7 +35,6 @@ export default function About() {
             </div>
             <br />
             <div className="bio">
-                {/* <h6 class="bio header font-weight-bold">Bio:</h6> */}
                 <div className="container">
                     <div className="row justify-content-around">
                         <div className="col-12">
