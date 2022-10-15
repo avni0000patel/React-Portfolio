@@ -35,13 +35,16 @@ export default function Portfolio() {
         img: {
             height: '300px',
             width: '300px',
+        },
+        pop: {
+            color: '#274C77',
         }
     }
     return (
         <section style={styles.top}>
             <div id="portfolio" className="portfolio">
                 <br />
-                <h1 className="text-center">Portfolio Page</h1>
+                <h1 style={styles.pop} className="text-center">Portfolio Page</h1>
                 <br />
             </div>
             <div className="portfolio">

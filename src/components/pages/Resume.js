@@ -7,12 +7,15 @@ export default function Resume() {
             paddingTop: '40px',
             paddingBottom: '40px',
         },
+        pop: {
+            color: '#274C77',
+        }
     }
     return (
         <section style={styles.top}>
             <div className="resume">
                 <br />
-                <h1 className="text-center">Resume Page</h1>
+                <h1 style={styles.pop} className="text-center">Resume Page</h1>
                 <br />
             </div>
             <div className="download">

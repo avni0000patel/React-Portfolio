@@ -10,6 +10,9 @@ export default function Contact() {
             paddingTop: '40px',
             paddingBottom: '40px',
         },
+        pop: {
+            color: '#274C77',
+        }
     }
 
     const [formInput, setFormInput] = useState({
@@ -71,7 +74,7 @@ export default function Contact() {
         <section style={styles.top}>
             <div className="portfolio">
                 <br />
-                <h1 className="text-center">Contact Page</h1>
+                <h1 style={styles.pop} className="text-center">Contact Page</h1>
                 <br />
             </div>
             <div className="contact">

@@ -16,13 +16,16 @@ export default function About() {
         },
         hello: {
             fontSize: '30px',
+        },
+        pop: {
+            color: '#274C77',
         }
     };
     return (
         <section style={styles.top}>
             <div className="about-me">
                 <br />
-                <h1 className="text-center">About Page</h1>
+                <h1 style={styles.pop} className="text-center">About Page</h1>
                 <br />
             </div>
             <div>
