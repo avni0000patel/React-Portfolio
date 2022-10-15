@@ -24,10 +24,10 @@ export default function Portfolio() {
             paddingBottom: '40px',
         },
         card: {
-            backgroundColor: '#6096ba',
+            backgroundColor: '#274C77',
         },
         cardHeader: {
-            backgroundColor: '#274C77',
+            backgroundColor: '#6096ba',
         },
         project: {
             textAlign: 'center',
