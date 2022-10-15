@@ -23,11 +23,66 @@ export default function Resume() {
                 </div>
             </div>
             <br />
-            <div className="technical-skills">
+            <div className="front-end">
                 <div className="container">
                     <div className="row d-flex justify-content-around">
                         <div>
-                            Git, HTML, CSS, JavaScript, Bootstrap, The DOM, APIs, jQuery, JSON, AJAX, Node, ES6, Object-Oriented Programming, Express, MySQL, MVC paradigm, Sequelize, Testing, and Agile Development, NoSQL, React, MERN Stack, and fundamentals in Computer Science.
+                            <h6>Front-End Proficiencies:</h6>
+                            <ul>
+                                <li>
+                                    HTML
+                                </li>
+                                <li>
+                                    CSS
+                                </li>
+                                <li>
+                                    JavaScript
+                                </li>
+                                <li>
+                                    Bootstrap
+                                </li>
+                                <li>
+                                    jQuery
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="back-end">
+                <div className="container">
+                    <div className="row d-flex justify-content-around">
+                        <div>
+                            <h6>Back-End Proficiencies:</h6>
+                            <ul>
+                                <li>
+                                    APIs
+                                </li>
+                                <li>
+                                    Node
+                                </li>
+                                <li>
+                                    Express
+                                </li>
+                                <li>
+                                    MySQL
+                                </li>
+                                <li>
+                                    Sequelize
+                                </li>
+                                <li>
+                                    MongoDB
+                                </li>
+                                <li>
+                                    Mongoose
+                                </li>
+                                <li>
+                                    REST
+                                </li>
+                                <li>
+                                    GraphQL
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
