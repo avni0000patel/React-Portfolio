@@ -88,7 +88,7 @@ export default function Contact() {
                                     <Alert show={show} variant="warning">
                                         <div>This field is required.</div>
                                         <div className="d-flex justify-content-end">
-                                            <Button onClick={() => setShow(false)} variant="outline-success">
+                                            <Button onClick={() => setShow(false)}>
                                                 Close
                                             </Button>
                                         </div>
@@ -114,7 +114,7 @@ export default function Contact() {
                                     <Alert show={show} variant="warning">
                                         <div>This field is required.</div>
                                         <div className="d-flex justify-content-end">
-                                            <Button onClick={() => setShow(false)} variant="outline-success">
+                                            <Button onClick={() => setShow(false)}>
                                                 Close
                                             </Button>
                                         </div>
@@ -139,7 +139,7 @@ export default function Contact() {
                                     <Alert show={show} variant="warning">
                                         <div>This field is required.</div>
                                         <div className="d-flex justify-content-end">
-                                            <Button onClick={() => setShow(false)} variant="outline-success">
+                                            <Button onClick={() => setShow(false)}>
                                                 Close
                                             </Button>
                                         </div>
