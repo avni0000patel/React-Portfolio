@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
+import { validateEmail } from '../../utils/helper';
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/2ffb6220-4aa0-11ed-8970-6943e4ac8982";
 
@@ -17,20 +18,39 @@ export default function Contact() {
         message: ''
     });
 
-    const handleChange = (event) => {
+    const [errorMessage, setErrorMessage] = useState('');
+
+    function handleChange(event) {
         const { name, value } = event.target;
         console.log(`the name of the field being types in is ${name}, it's value is ${value}`)
         setFormInput(priev => ({ ...priev, [name]: value }))
     };
 
-    const [isShown, setIsShown] = useState(false);
+    function handleCursor(event) {
+        const { name, value } = event.target;
+        if (name === 'email') {
+            const isValid = validateEmail(value);
 
-    const [show, setShow] = useState(true)
+            if (!isValid) {
+                setErrorMessage('please enter a valid email');
+            } else {
+                setErrorMessage('');
+            }
 
-    // const mouseLeave = () => {
-    //     console.log("This field is required.");
+        } else {
+            if (!value.length) {
+                setErrorMessage(`${name} is required`);
+            } else {
+                setErrorMessage('');
+            }
+        }
 
-    // }
+        if (!errorMessage) {
+            setFormInput({ ...formInput, [name]: value })
+        }
+    }
+
+    const [show, setShow] = useState(true);
 
     const [submitted, setSubmitted] = useState(false);
 
@@ -78,17 +98,8 @@ export default function Contact() {
                                         required
                                         value={formInput.name}
                                         onChange={handleChange}
-                                        // onMouseLeave={mouseLeave}
-                                        onMouseEnter={() => setIsShown(false)}
-                                        onMouseLeave={() => setIsShown(true)}
+                                        onBlur={handleCursor}
                                     />
-                                    {isShown && (
-                                        <Alert show={show} variant="warning" onClose={() => setShow(false)} dismissible>
-                                            <div>This field is required.</div>
-                                            <div className="d-flex justify-content-end">
-                                            </div>
-                                        </Alert>
-                                    )}
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="email">Email</label>
@@ -100,17 +111,9 @@ export default function Contact() {
                                         required
                                         value={formInput.email}
                                         onChange={handleChange}
-                                        // onMouseLeave={mouseLeave}
-                                        onMouseEnter={() => setIsShown(false)}
-                                        onMouseLeave={() => setIsShown(true)}
+                                        onBlur={handleCursor}
+
                                     />
-                                    {isShown && (
-                                        <Alert show={show} variant="warning" onClose={() => setShow(false)} dismissible>
-                                            <div>This field is required.</div>
-                                            <div className="d-flex justify-content-end">
-                                            </div>
-                                        </Alert>
-                                    )}
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="message">Message</label>
@@ -122,19 +125,15 @@ export default function Contact() {
                                         required
                                         value={formInput.message}
                                         onChange={handleChange}
-                                        // onMouseLeave={mouseLeave}
-                                        onMouseEnter={() => setIsShown(false)}
-                                        onMouseLeave={() => setIsShown(true)}
+                                        onBlur={handleCursor}
                                     />
-                                    {isShown && (
-                                        <Alert show={show} variant="warning" onClose={() => setShow(false)} dismissible>
-                                            <div>This field is required.</div>
-                                            <div className="d-flex justify-content-end">
-                                            </div>
-                                        </Alert>
-                                    )}
                                 </div>
                                 <br />
+                                {errorMessage && (
+                                    <Alert show={show} variant="danger" onClose={() => setShow(false)} dismissible>
+                                        <p>{errorMessage}</p>
+                                    </Alert>
+                                )}
                                 <div>
                                     <button type="submit" className="btn btn-primary">Submit</button>
                                 </div>
