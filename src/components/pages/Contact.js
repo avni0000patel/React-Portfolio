@@ -78,9 +78,6 @@ export default function Contact() {
                 <div className="container">
                     <div className="row justify-content-around">
                         <div className="col-12">
-                            <p>
-                                Feel free to reach out to me via email: avni0000patel@gmail.com
-                            </p>
                             <form
                                 id="contact-form"
                                 action={FORM_ENDPOINT}
