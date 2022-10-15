@@ -49,7 +49,7 @@ export default function Portfolio() {
             </div>
             <div className="portfolio">
                 <div className="container">
-                    <div className="row justify-center justify-content-around">
+                    <div className="row gy-3 justify-center justify-content-around">
                         {/* Professional portfolio */}
                         <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
                             <br />
