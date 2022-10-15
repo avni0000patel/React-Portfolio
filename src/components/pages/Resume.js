@@ -5,7 +5,7 @@ export default function Resume() {
     const styles = {
         top: {
             paddingTop: '40px',
-            paddingBottom: '40px',
+            paddingBottom: '60px',
         },
     }
     return (

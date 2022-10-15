@@ -8,7 +8,7 @@ export default function Contact() {
     const styles = {
         top: {
             paddingTop: '40px',
-            paddingBottom: '40px',
+            paddingBottom: '60px',
         },
         pop: {
             color: '#274C77',

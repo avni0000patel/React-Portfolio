@@ -21,7 +21,7 @@ export default function Portfolio() {
     const styles = {
         top: {
             paddingTop: '40px',
-            paddingBottom: '40px',
+            paddingBottom: '60px',
         },
         card: {
             backgroundColor: '#274C77',

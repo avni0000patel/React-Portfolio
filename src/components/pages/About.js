@@ -6,7 +6,7 @@ export default function About() {
     const styles = {
         top: {
             paddingTop: '40px',
-            paddingBottom: '40px',
+            paddingBottom: '60px',
         },
         aboutMe: {
             textAlign: 'center',
