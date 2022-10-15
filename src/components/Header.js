@@ -58,9 +58,11 @@ function NavTabs({ currentPage, handlePageChange }) {
                         Resume
                     </a>
                 </li>
-                <div style={styles.float}>
-                    <h3>Avni Patel</h3>
-                </div>
+                <li className="nav-item">
+                    <div style={styles.float}>
+                        <h3>Avni Patel</h3>
+                    </div>
+                </li>
             </ul>
         </header>
     );
