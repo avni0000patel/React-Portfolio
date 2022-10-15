@@ -22,6 +22,16 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
+            {/* <br />
+            <div className="technical-skills">
+                <div className="container">
+                    <div className="row d-flex justify-content-around">
+                        <div>
+                            Git, HTML, CSS, JavaScript, Bootstrap, The DOM, APIs, jQuery, JSON, AJAX, Node, ES6, Object-Oriented Programming, Express, MySQL, MVC paradigm, Sequelize, Testing, and Agile Development, NoSQL, React, MERN Stack, and fundamentals in Computer Science.
+                        </div>
+                    </div>
+                </div>
+            </div> */}
             <br />
             <div className="front-end">
                 <div className="container">
