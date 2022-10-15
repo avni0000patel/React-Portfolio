@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button';
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/2ffb6220-4aa0-11ed-8970-6943e4ac8982";
 
@@ -22,18 +24,29 @@ export default function Contact() {
         setFormInput(priev => ({ ...priev, [name]: value }))
     };
 
+    const [isShown, setIsShown] = useState(false);
+
+    const [show, setShow] = useState(true)
+
+    // const mouseLeave = () => {
+    //     console.log("This field is required.");
+
+    // }
+
     const [submitted, setSubmitted] = useState(false);
+
     const handleSubmit = () => {
         setTimeout(() => {
             setSubmitted(true);
         }, 100);
-    };
 
-    if (submitted) {
-        return (
-            <div>Thank you!</div>
-        );
-    }
+        if (submitted) {
+            return (
+                <div>Thank you!</div>
+            );
+        }
+
+    };
 
     return (
         <section style={styles.top}>
@@ -66,8 +79,22 @@ export default function Contact() {
                                         required
                                         value={formInput.name}
                                         onChange={handleChange}
+                                        // onMouseLeave={mouseLeave}
+                                        onMouseEnter={() => setIsShown(false)}
+                                        onMouseLeave={() => setIsShown(true)}
                                     />
                                 </div>
+                                {isShown && (
+                                    <Alert show={show} variant="warning">
+                                        <div>This field is required.</div>
+                                        <div className="d-flex justify-content-end">
+                                            <Button onClick={() => setShow(false)} variant="outline-success">
+                                                Close
+                                            </Button>
+                                        </div>
+                                    </Alert>
+                                )}
+                                {!show && <Button onClick={() => setShow(true)}>Show Alert</Button>}
                                 <div className="form-group">
                                     <label htmlFor="email">Email</label>
                                     <input
@@ -78,8 +105,21 @@ export default function Contact() {
                                         required
                                         value={formInput.email}
                                         onChange={handleChange}
+                                        // onMouseLeave={mouseLeave}
+                                        onMouseEnter={() => setIsShown(false)}
+                                        onMouseLeave={() => setIsShown(true)}
                                     />
                                 </div>
+                                {isShown && (
+                                    <Alert show={show} variant="warning">
+                                        <div>This field is required.</div>
+                                        <div className="d-flex justify-content-end">
+                                            <Button onClick={() => setShow(false)} variant="outline-success">
+                                                Close
+                                            </Button>
+                                        </div>
+                                    </Alert>
+                                )}
                                 <div className="form-group">
                                     <label htmlFor="message">Message</label>
                                     <textarea
@@ -90,8 +130,21 @@ export default function Contact() {
                                         required
                                         value={formInput.message}
                                         onChange={handleChange}
+                                        // onMouseLeave={mouseLeave}
+                                        onMouseEnter={() => setIsShown(false)}
+                                        onMouseLeave={() => setIsShown(true)}
                                     />
                                 </div>
+                                {isShown && (
+                                    <Alert show={show} variant="warning">
+                                        <div>This field is required.</div>
+                                        <div className="d-flex justify-content-end">
+                                            <Button onClick={() => setShow(false)} variant="outline-success">
+                                                Close
+                                            </Button>
+                                        </div>
+                                    </Alert>
+                                )}
                                 <br />
                                 <div>
                                     <button type="submit" className="btn btn-primary">Submit</button>
@@ -101,7 +154,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
 
         </section >
     );
