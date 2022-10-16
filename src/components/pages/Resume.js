@@ -20,13 +20,20 @@ export default function Resume() {
             </div>
             <div className="download">
                 <div className="container">
-                    <div className="row justify-content-around">
-                        <a href={PDF}>Click here to download resume!</a>
+                    <div className="row">
+                        <div>
+                            <h5>Resume:</h5>
+                            <ul>
+                                <li>
+                                    <a className="card text-dark" href={PDF}>Click here to download resume!</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            {/* <br />
-            <div className="technical-skills">
+            {/* {/* <br /> */}
+            {/* <div className="technical-skills">
                 <div className="container">
                     <div className="row d-flex justify-content-around">
                         <div>
@@ -36,64 +43,59 @@ export default function Resume() {
                 </div>
             </div> */}
             <br />
-            <div className="front-end">
+            <div className="proficiences">
                 <div className="container">
-                    <div className="row d-flex justify-content-around">
-                        <div>
-                            <h6>Front-End Proficiencies:</h6>
+                    <div className="row">
+                        <div className="col-12 col-md-6">
+                            <h5>Front-End Proficiencies:</h5>
                             <ul>
                                 <li>
-                                    HTML
+                                    <div className="card text-dark">HTML</div>
                                 </li>
                                 <li>
-                                    CSS
+                                    <div className="card text-dark">CSS</div>
                                 </li>
                                 <li>
-                                    JavaScript
+                                    <div className="card text-dark">JavaScript</div>
                                 </li>
                                 <li>
-                                    Bootstrap
+                                    <div className="card text-dark">Bootstrap</div>
                                 </li>
                                 <li>
-                                    jQuery
+                                    <div className="card text-dark">jQuery</div>
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div className="back-end">
-                <div className="container">
-                    <div className="row d-flex justify-content-around">
-                        <div>
-                            <h6>Back-End Proficiencies:</h6>
+                        <br />
+                        <div className="col-12 col-md-6">
+                            <h5>Back-End Proficiencies:</h5>
                             <ul>
                                 <li>
-                                    APIs
+                                    <div className="card text-dark">APIs</div>
                                 </li>
                                 <li>
-                                    Node
+                                    <div className="card text-dark">Node</div>
                                 </li>
                                 <li>
-                                    Express
+                                    <div className="card text-dark">Express</div>
                                 </li>
                                 <li>
-                                    MySQL
+                                    <div className="card text-dark">MySQL</div>
                                 </li>
                                 <li>
-                                    Sequelize
+                                    <div className="card text-dark">Sequelize</div>
                                 </li>
                                 <li>
-                                    MongoDB
+                                    <div className="card text-dark">MongoDB</div>
                                 </li>
                                 <li>
-                                    Mongoose
+                                    <div className="card text-dark">Mongoose</div>
                                 </li>
                                 <li>
-                                    REST
+                                    <div className="card text-dark">REST</div>
                                 </li>
                                 <li>
-                                    GraphQL
+                                    <div className="card text-dark">GraphQL</div>
                                 </li>
                             </ul>
                         </div>
