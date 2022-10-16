@@ -8,38 +8,35 @@ https://github.com/avni0000patel
 https://avni0000patel.github.io/React-Portfolio/
 
 ## Technologies Used
-## Technologies Used
 HTML - creates the structure of Web pages
 
 CSS - creates the presentation of Web pages
 
 Bootstrap - the CSS framework
 
-@testing-library/jest-dom
+Jest-dom testing library - a companion library for Testing Library that provides custom DOM element matchers for Jest
 
-@testing-library/react
+React testing library - builds on top of DOM Testing Library by adding APIs for working with React components
 
-@testing-library/user-event
+User-event testing library - simulates the real events that would happen in the browser as the user interacts with it
 
-axios
+Axios - promise based HTTP client for the browser and node.js
 
-email-validator
+gh-pages - publishes files to a gh-pages branch on GitHub (or any other branch anywhere else)
 
-gh-pages
+React - a JavaScript library for creating user interfaces
 
-react
+React-bootstrap-alert - alert dialog for react with bootstrap modal
 
-react-bootstrap-alert
+React-bootstrap-tabs - a react component to render tabs using Bootstrap classes
 
-react-bootstrap-tabs
+React-dom - serves as the entry point to the DOM and server renderers for React
 
-react-dom
+React-icons - SVG React icons of popular icon packs using ES6 imports
 
-react-icons
+React-scripts - scripts and configuration used by Create React App
 
-react-scripts
-
-web-vitals
+Web-vitals - a easily measured performance metric in JavaScript
 
 ## Getting Started with Create React App
 
