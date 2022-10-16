@@ -22,7 +22,7 @@ export default function Resume() {
                 <div className="container">
                     <div className="row">
                         <div>
-                            <h5>Resume:</h5>
+                            <div>Resume:</div>
                             <ul>
                                 <li>
                                     <a className="card text-dark" href={PDF}>Click here to download resume!</a>
@@ -32,7 +32,6 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
-            {/* {/* <br /> */}
             {/* <div className="technical-skills">
                 <div className="container">
                     <div className="row d-flex justify-content-around">
@@ -42,12 +41,11 @@ export default function Resume() {
                     </div>
                 </div>
             </div> */}
-            <br />
             <div className="proficiences">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-6">
-                            <h5>Front-End Proficiencies:</h5>
+                            <div>Front-End Proficiencies:</div>
                             <ul>
                                 <li>
                                     <div className="card text-dark">HTML</div>
@@ -66,9 +64,8 @@ export default function Resume() {
                                 </li>
                             </ul>
                         </div>
-                        <br />
                         <div className="col-12 col-md-6">
-                            <h5>Back-End Proficiencies:</h5>
+                            <div>Back-End Proficiencies:</div>
                             <ul>
                                 <li>
                                     <div className="card text-dark">APIs</div>
@@ -102,7 +99,6 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
-            <br />
         </section >
     );
 }
