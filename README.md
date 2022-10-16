@@ -1,4 +1,5 @@
 # React Portfolio
+In this project my professional portfolio using react has been created to show my skills and talents. This project highlights the works I have completed. This project is important because a professional portfolio is a requirement for many companies in order to obtain an interview for that company. 
 
 ## GitHub Link
 https://github.com/avni0000patel
