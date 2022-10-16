@@ -8,6 +8,38 @@ https://github.com/avni0000patel
 https://avni0000patel.github.io/React-Portfolio/
 
 ## Technologies Used
+## Technologies Used
+HTML - creates the structure of Web pages
+
+CSS - creates the presentation of Web pages
+
+Bootstrap - the CSS framework
+
+@testing-library/jest-dom
+
+@testing-library/react
+
+@testing-library/user-event
+
+axios
+
+email-validator
+
+gh-pages
+
+react
+
+react-bootstrap-alert
+
+react-bootstrap-tabs
+
+react-dom
+
+react-icons
+
+react-scripts
+
+web-vitals
 
 ## Getting Started with Create React App
 
