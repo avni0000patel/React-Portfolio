@@ -818,7 +818,7 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description:  In this project I have built a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+                                            Description:  In this project I have built a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list.
                                             <br />
                                             <br />
                                             Technologies:  Javascript, Node JS, Express, Moment, Nodemon
