@@ -16,6 +16,7 @@ import NoteTaker from '../../assets/images/note-taker.png';
 import EmployeeTracker from '../../assets/images/employee-tracker.png';
 import ECommerceBackEnd from '../../assets/images/e-commerce-back-end-screenshot.png';
 import TechBlog from '../../assets/images/tech-blog-screenshot.png';
+import RegexTutorial from '../../assets/images/regex-tutorial.png';
 
 export default function Portfolio() {
     const styles = {
@@ -696,6 +697,54 @@ export default function Portfolio() {
                                 </Tabs>
                             </div >
                         </div >
+                        {/* Regex Tutorial */}
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="regex-tutorial">
+                                <br />
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                Regex Tutorial
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description:  In this project I have created a regex tutorial that writes about code.
+                                            <br />
+                                            <br />
+                                            Technologies:  GitHub Gist
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://gist.github.com/avni0000patel/3ba423acbc4236b858409caa4486d6cb">
+                                            <p className="text-light">Click here to see the github gist for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <img style={styles.img} src={RegexTutorial}
+                                                alt="Regex Tutorial" />
+                                        </div>
+                                        <p className="description text-light">
+                                            Note:  Application is not deployed
+                                        </p>
+                                    </Tab>
+                                </Tabs>
+                            </div >
+                        </div >
+
                     </div >
                 </div>
             </div>
