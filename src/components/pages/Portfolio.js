@@ -19,6 +19,7 @@ import TechBlog from '../../assets/images/tech-blog-screenshot.png';
 import RegexTutorial from '../../assets/images/regex-tutorial.png';
 import SocialNetworkAPI from '../../assets/images/social-network-API.png';
 import BookSearchEngine from '../../assets/images/book-search-engine.png';
+import ReactPortfolio from '../../assets/images/react-portfolio.png';
 
 export default function Portfolio() {
     const styles = {
@@ -93,6 +94,52 @@ export default function Portfolio() {
                                             <a style={styles.project} className="project" href="https://avni0000patel.github.io/Professional-Portfolio/">
                                                 <img style={styles.img} src={ProfessionalPortfolio}
                                                     alt="Professional Portfolio" />
+                                            </a>
+                                        </div>
+                                    </Tab>
+                                </Tabs>
+                            </div>
+                        </div>
+                        {/* React portfolio */}
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <br />
+                            <div className="react-portfolio">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                React Portfolio
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description: In this project my professional portfolio using react has been created to show my skills and talents.
+                                            <br />
+                                            <br />
+                                            Technologies: Jest-dom testing library, React testing library, User-event testing library, Axios, gh-pages, React, React-bootstrap-alert, React-bootstrap-tabs, React-dom, React-icons, React-scripts, Web-vitals
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://github.com/avni0000patel/React-Portfolio">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/React-Portfolio/">
+                                                <img style={styles.img} src={ReactPortfolio}
+                                                    alt="React Portfolio" />
                                             </a>
                                         </div>
                                     </Tab>
