@@ -8,12 +8,6 @@ https://github.com/avni0000patel
 https://avni0000patel.github.io/React-Portfolio/
 
 ## Technologies Used
-HTML - creates the structure of Web pages
-
-CSS - creates the presentation of Web pages
-
-Bootstrap - the CSS framework
-
 Jest-dom testing library - a companion library for Testing Library that provides custom DOM element matchers for Jest
 
 React testing library - builds on top of DOM Testing Library by adding APIs for working with React components
