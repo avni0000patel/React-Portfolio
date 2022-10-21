@@ -18,6 +18,7 @@ import ECommerceBackEnd from '../../assets/images/e-commerce-back-end-screenshot
 import TechBlog from '../../assets/images/tech-blog-screenshot.png';
 import RegexTutorial from '../../assets/images/regex-tutorial.png';
 import SocialNetworkAPI from '../../assets/images/social-network-API.png';
+import BookSearchEngine from '../../assets/images/book-search-engine.png';
 
 export default function Portfolio() {
     const styles = {
@@ -789,6 +790,52 @@ export default function Portfolio() {
                                         <p className="description text-light">
                                             Note:  Application is not deployed
                                         </p>
+                                    </Tab>
+                                </Tabs>
+                            </div >
+                        </div >
+                        {/* Book Search Engine */}
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="book-search-engine">
+                                <br />
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                Book Search Engine
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description:  In this project I have taken a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server.
+                                            <br />
+                                            <br />
+                                            Technologies:  Apollo client, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Bootstrap, Concurrently, Express, Graphql, Jsonwebtoken, Jwt-decode, Mongoose, Nodemon, React, React-bootstrap, React-dom, React-router-dom, React-scripts
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://github.com/avni0000patel/Book-Search-Engine">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <a style={styles.project} className="project" href="https://gentle-brook-85225.herokuapp.com/">
+                                                <img style={styles.img} src={BookSearchEngine}
+                                                    alt="Book Search Engine" />
+                                            </a>
+                                        </div>
                                     </Tab>
                                 </Tabs>
                             </div >
