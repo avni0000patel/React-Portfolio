@@ -20,6 +20,7 @@ import RegexTutorial from '../../assets/images/regex-tutorial.png';
 import SocialNetworkAPI from '../../assets/images/social-network-API.png';
 import BookSearchEngine from '../../assets/images/book-search-engine.png';
 import ReactPortfolio from '../../assets/images/react-portfolio.png';
+import ReduxStore from '../../assets/images/redux-store.png';
 
 export default function Portfolio() {
     const styles = {
@@ -881,6 +882,52 @@ export default function Portfolio() {
                                             <a style={styles.project} className="project" href="https://gentle-brook-85225.herokuapp.com/">
                                                 <img style={styles.img} src={BookSearchEngine}
                                                     alt="Book Search Engine" />
+                                            </a>
+                                        </div>
+                                    </Tab>
+                                </Tabs>
+                            </div >
+                        </div >
+                        {/* Redux Store */}
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="redux-store">
+                                <br />
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                Redux Store
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description: In this project I refactored an e-commerce platform that uses React's Context API to use Redux.
+                                            <br />
+                                            <br />
+                                            Technologies:  Apollo client, Redux toolkit, Stripe, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Concurrently, Express, Graphql, Jsonwebtoken, Jwt-decode, Mongoose, Nodemon, React, React-bootstrap, React-dom, React-redux, React-router-dom, React-scripts
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://github.com/avni0000patel/Redux-Store">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <a style={styles.project} className="project" href="https://fierce-wave-89071.herokuapp.com/">
+                                                <img style={styles.img} src={ReduxStore}
+                                                    alt="Redux Store" />
                                             </a>
                                         </div>
                                     </Tab>
