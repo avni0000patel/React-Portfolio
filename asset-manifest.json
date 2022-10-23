@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.5032b587.css",
-    "main.js": "/React-Portfolio/static/js/main.1fe2ec8e.js",
+    "main.js": "/React-Portfolio/static/js/main.f1db863e.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/challenge01.png": "/React-Portfolio/static/media/challenge01.c8812e5ade2281af93c1.png",
     "static/media/rig-match-me-screenshot.png": "/React-Portfolio/static/media/rig-match-me-screenshot.4ebcdb055a9d0c2c6294.png",
     "static/media/book-search-engine.png": "/React-Portfolio/static/media/book-search-engine.258197c8c2557ada1091.png",
     "static/media/profilePicture.jpg": "/React-Portfolio/static/media/profilePicture.90fdfbf33a42ea5772d8.jpg",
     "static/media/social-network-API.png": "/React-Portfolio/static/media/social-network-API.07ebffa8459190b8172d.png",
+    "static/media/redux-store.png": "/React-Portfolio/static/media/redux-store.5e19d018177c94ad6179.png",
     "static/media/professional-readme-generator-picture.png": "/React-Portfolio/static/media/professional-readme-generator-picture.6223b63c1d4c67deb993.png",
     "static/media/react-portfolio.png": "/React-Portfolio/static/media/react-portfolio.6be7981166ebf8cf9387.png",
     "static/media/e-commerce-back-end-screenshot.png": "/React-Portfolio/static/media/e-commerce-back-end-screenshot.b09b2dee14c12c354592.png",
@@ -25,11 +26,11 @@
     "static/media/search.png": "/React-Portfolio/static/media/search.d6f085b2249698789447.png",
     "index.html": "/React-Portfolio/index.html",
     "main.5032b587.css.map": "/React-Portfolio/static/css/main.5032b587.css.map",
-    "main.1fe2ec8e.js.map": "/React-Portfolio/static/js/main.1fe2ec8e.js.map",
+    "main.f1db863e.js.map": "/React-Portfolio/static/js/main.f1db863e.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5032b587.css",
-    "static/js/main.1fe2ec8e.js"
+    "static/js/main.f1db863e.js"
   ]
 }
