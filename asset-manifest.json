@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.5032b587.css",
-    "main.js": "/React-Portfolio/static/js/main.426acdea.js",
-    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "main.js": "/React-Portfolio/static/js/main.8bdf29d3.js",
     "static/media/challenge01.png": "/React-Portfolio/static/media/challenge01.c8812e5ade2281af93c1.png",
     "static/media/rig-match-me-screenshot.png": "/React-Portfolio/static/media/rig-match-me-screenshot.4ebcdb055a9d0c2c6294.png",
     "static/media/book-search-engine.png": "/React-Portfolio/static/media/book-search-engine.258197c8c2557ada1091.png",
@@ -16,21 +15,21 @@
     "static/media/employee-tracker.png": "/React-Portfolio/static/media/employee-tracker.c9b6dfb30894c4492e45.png",
     "static/media/note-taker.png": "/React-Portfolio/static/media/note-taker.354dceffcc63a9104a06.png",
     "static/media/wanderlist.png": "/React-Portfolio/static/media/wanderlist.4748542fe944dbeb1c1d.png",
-    "static/media/Avni_Patel_Resume.pdf": "/React-Portfolio/static/media/Avni_Patel_Resume.93cba169b13b7d410f31.pdf",
+    "static/media/Avni_Patel_Resume.pdf": "/React-Portfolio/static/media/Avni_Patel_Resume.0eb31dcb89e2719362c1.pdf",
     "static/media/tech-blog-screenshot.png": "/React-Portfolio/static/media/tech-blog-screenshot.f5887fb4068d68607a83.png",
     "static/media/password-generator-area.png": "/React-Portfolio/static/media/password-generator-area.60e53af6d0978445a892.png",
     "static/media/work-day-scheduler-area.png": "/React-Portfolio/static/media/work-day-scheduler-area.a0d3408aaaf09b05c240.png",
     "static/media/team-profile-generator.png": "/React-Portfolio/static/media/team-profile-generator.d9d4c086b21a0b9da257.png",
+    "static/media/autismfylogo.png": "/React-Portfolio/static/media/autismfylogo.e47cae6d6af02ac0ef2f.png",
     "static/media/code-quiz-area.png": "/React-Portfolio/static/media/code-quiz-area.4539fe875de1a27eddb8.png",
     "static/media/portfolio.png": "/React-Portfolio/static/media/portfolio.176208a6bd847d917311.png",
     "static/media/search.png": "/React-Portfolio/static/media/search.d6f085b2249698789447.png",
     "index.html": "/React-Portfolio/index.html",
     "main.5032b587.css.map": "/React-Portfolio/static/css/main.5032b587.css.map",
-    "main.426acdea.js.map": "/React-Portfolio/static/js/main.426acdea.js.map",
-    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.8bdf29d3.js.map": "/React-Portfolio/static/js/main.8bdf29d3.js.map"
   },
   "entrypoints": [
     "static/css/main.5032b587.css",
-    "static/js/main.426acdea.js"
+    "static/js/main.8bdf29d3.js"
   ]
 }
