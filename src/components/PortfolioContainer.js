@@ -17,7 +17,6 @@ export default function PortfolioContainer() {
     }
     const [currentPage, setCurrentPage] = useState('About');
 
-    // TODO: Add a comment describing the functionality of this method
     const renderPage = () => {
         if (currentPage === 'About') {
             return <About />;

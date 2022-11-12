@@ -21,6 +21,7 @@ import SocialNetworkAPI from '../../assets/images/social-network-API.png';
 import BookSearchEngine from '../../assets/images/book-search-engine.png';
 import ReactPortfolio from '../../assets/images/react-portfolio.png';
 import ReduxStore from '../../assets/images/redux-store.png';
+import AutismFY from '../../assets/images/autismfylogo.png';
 
 export default function Portfolio() {
     const styles = {
@@ -147,15 +148,15 @@ export default function Portfolio() {
                                 </Tabs>
                             </div>
                         </div>
-                        {/* Wanderlist */}
+                        {/* AutismFY */}
                         <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="wanderlist">
+                            <div className="rig-match-me">
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
                                             <div>
-                                                Wanderlist
+                                                AutismFY
                                             </div>
                                         </div>
                                     </div>
@@ -171,22 +172,23 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description: In this project we have created a website that helps travelers find a safe country to visit and find information about prerequisites for travelling to that country.
+                                            Description: In this project we have created an application that is designed to help parents and caregivers of younger Autistic children create routine To-Do Lists, log important information in a Notes tab, share and connect with other parents and caregives by creating posts. In this project we will build and design this app using the React, create our own server-side API, add user authentication, and connect to a database.
                                             <br />
                                             <br />
-                                            Technologies: HTML, CSS, Bulma, JavaScript, jQuery, jQuery UI, Travel Briefing API, Google API, Google fonts
+                                            Technologies: Apollo client, Axios, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Bootstrap, Bootstrap-icons, Concurrently, Connect-busboy, Cors,  Express, Framer-motion, Graphql, Jsonwebtoken, Jwt-decode, Material UI, Mongoose, Nodemon, Prettier, Randomcolor, Randomstring, React, React-bootstrap, React-dom, React-draggable, React-icons, React-redux, React-router-dom, React-scripts, Redux, UUID, Web-vitals
+
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/KayHancock/Wanderlist">
+                                        <a className="github" href="https://github.com/avni0000patel/AutismFY">
                                             <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} className="project" href="https://kayhancock.github.io/Wanderlist/">
-                                                <img style={styles.img} src={Wanderlist}
-                                                    alt="Wanderlist" />
+                                            <a style={styles.project} className="project" href="https://hidden-beach-19071.herokuapp.com/">
+                                                <img style={styles.img} src={AutismFY}
+                                                    alt="AutismFY" />
                                             </a>
                                         </div>
                                     </Tab>
@@ -233,6 +235,52 @@ export default function Portfolio() {
                                             <a style={styles.project} className="project" href="https://evening-fjord-11816.herokuapp.com/">
                                                 <img style={styles.img} src={RigMatchMe}
                                                     alt="Rig Match Me" />
+                                            </a>
+                                        </div>
+                                    </Tab>
+                                </Tabs>
+                            </div>
+                        </div>
+                        {/* Wanderlist */}
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <br />
+                            <div className="wanderlist">
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                Wanderlist
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description: In this project we have created a website that helps travelers find a safe country to visit and find information about prerequisites for travelling to that country.
+                                            <br />
+                                            <br />
+                                            Technologies: HTML, CSS, Bulma, JavaScript, jQuery, jQuery UI, Travel Briefing API, Google API, Google fonts
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://github.com/KayHancock/Wanderlist">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <a style={styles.project} className="project" href="https://kayhancock.github.io/Wanderlist/">
+                                                <img style={styles.img} src={Wanderlist}
+                                                    alt="Wanderlist" />
                                             </a>
                                         </div>
                                     </Tab>
