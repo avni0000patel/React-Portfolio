@@ -172,7 +172,7 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description: In this project we have created an application that is designed to help parents and caregivers of younger Autistic children create routine To-Do Lists, log important information in a Notes tab, share and connect with other parents and caregives by creating posts. In this project we will build and design this app using the React, create our own server-side API, add user authentication, and connect to a database.
+                                            Description: In this project we have created an application that is designed to help parents and caregivers of younger Autistic children create routine To-Do Lists, log important information in a Notes tab, share and connect with other parents and caregivers by creating posts.
                                             <br />
                                             <br />
                                             Technologies: Apollo client, Axios, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Bootstrap, Bootstrap-icons, Concurrently, Connect-busboy, Cors,  Express, Framer-motion, Graphql, Jsonwebtoken, Jwt-decode, Material UI, Mongoose, Nodemon, Prettier, Randomcolor, Randomstring, React, React-bootstrap, React-dom, React-draggable, React-icons, React-redux, React-router-dom, React-scripts, Redux, UUID, Web-vitals
