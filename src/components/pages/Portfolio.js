@@ -222,7 +222,7 @@ export default function Portfolio() {
                                             Description: In this project we have created an application that provides a guided tour of instruments to help steer the user towards getting properly setup for the genre of music they are interested in playing.
                                             <br />
                                             <br />
-                                            Technologies: HTML, CSS, Bootstrap, JavaScript, Node JS, Express, Express-handlebars, MySQL, Sequelize, Dotenv, Bycrypt, Connect-session-sequelize, Nodemailer
+                                            Technologies: HTML, CSS, Bootstrap, JavaScript, Node JS, Express, Express-handlebars, MySQL, Sequelize, Dotenv, Bcrypt, Connect-session-sequelize, Nodemailer
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
