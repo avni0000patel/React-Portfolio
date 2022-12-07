@@ -57,7 +57,7 @@ export default function Portfolio() {
                 <div className="container">
                     <div className="row gy-3 justify-center justify-content-around">
                         {/* Professional portfolio */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        {/* <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="professional-portfolio">
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -101,9 +101,9 @@ export default function Portfolio() {
                                     </Tab>
                                 </Tabs>
                             </div>
-                        </div>
+                        </div> */}
                         {/* React portfolio */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        {/* <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="react-portfolio">
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -147,7 +147,7 @@ export default function Portfolio() {
                                     </Tab>
                                 </Tabs>
                             </div>
-                        </div>
+                        </div> */}
                         {/* AutismFY */}
                         <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
                             <br />
@@ -242,7 +242,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Wanderlist */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        {/* <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="wanderlist">
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -286,16 +286,16 @@ export default function Portfolio() {
                                     </Tab>
                                 </Tabs>
                             </div>
-                        </div>
-                        {/* Code Refractor*/}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="code-refractor">
+                        </div> */}
+                        {/* Redux Store */}
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="redux-store">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
                                             <div>
-                                                Code Refractor
+                                                Redux Store
                                             </div>
                                         </div>
                                     </div>
@@ -311,175 +311,37 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description: In this project code has been refactored to meet accessibility standards.
+                                            Description: In this project I refactored an e-commerce platform that uses React's Context API to use Redux.
                                             <br />
                                             <br />
-                                            Technologies: HTML, CSS
+                                            Technologies:  Apollo client, Redux toolkit, Stripe, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Concurrently, Express, Graphql, Jsonwebtoken, Jwt-decode, Mongoose, Nodemon, React, React-bootstrap, React-dom, React-redux, React-router-dom, React-scripts
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Code-Refractor">
+                                        <a className="github" href="https://github.com/avni0000patel/Redux-Store">
                                             <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Code-Refractor/">
-                                                <img style={styles.img} src={Horiseon}
-                                                    alt="Horiseon Website" />
-                                            </a>
-                                        </div>
-                                    </Tab>
-                                </Tabs>
-                            </div>
-                        </div>
-                        {/* Password Generator */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="password-generator">
-                                <br />
-                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
-                                    <div className="row align-items-center h-100">
-                                        <div className="mx-auto">
-                                            <div>
-                                                Password Generator
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <br />
-
-                                <Tabs
-                                    defaultActiveKey="description"
-                                    transition={false}
-                                    id="justify-tab"
-                                    className="mb-3"
-                                >
-                                    <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
-                                            Description: In this project I have created a password generator to improve security and protect secure data.
-                                            <br />
-                                            <br />
-                                            Technologies: HTML, CSS, JavaScript
-                                        </p>
-                                    </Tab>
-                                    <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Password-Generator">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
-                                        </a>
-                                    </Tab>
-                                    <Tab eventKey="project" title="Project" label="Project">
-                                        <div style={styles.project}>
-                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Password-Generator/">
-                                                <img style={styles.img} src={PasswordGenerator}
-                                                    alt="Password Generator" />
-                                            </a>
-                                        </div>
-                                    </Tab>
-                                </Tabs>
-                            </div>
-                        </div>
-                        {/* Code Quiz */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="code-quiz">
-                                <br />
-                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
-                                    <div className="row align-items-center h-100">
-                                        <div className="mx-auto">
-                                            <div>
-                                                Code Quiz
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <br />
-
-                                <Tabs
-                                    defaultActiveKey="description"
-                                    transition={false}
-                                    id="justify-tab"
-                                    className="mb-3"
-                                >
-                                    <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
-                                            Description:  In this project I have created a code quiz because coding assessments are an important part of the interview process for developers.
-                                            <br />
-                                            <br />
-                                            Technologies:  HTML, CSS, JavaScript
-                                        </p>
-                                    </Tab>
-                                    <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Code-Quiz">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
-                                        </a>
-                                    </Tab>
-                                    <Tab eventKey="project" title="Project" label="Project">
-                                        <div style={styles.project}>
-                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Code-Quiz/">
-                                                <img style={styles.img} src={CodeQuiz}
-                                                    alt="Code Quiz" />
-                                            </a>
-                                        </div>
-                                    </Tab>
-                                </Tabs>
-                            </div>
-                        </div>
-                        {/* Work Day Scheduler */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="work-day-scheduler">
-                                <br />
-                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
-                                    <div className="row align-items-center h-100">
-                                        <div className="mx-auto">
-                                            <div>
-                                                Work Day Scheduler
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <br />
-
-                                <Tabs
-                                    defaultActiveKey="description"
-                                    transition={false}
-                                    id="justify-tab"
-                                    className="mb-3"
-                                >
-                                    <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
-                                            Description:  In this project I have created a work day scheduler so I can manage my time effectively.
-                                            <br />
-                                            <br />
-                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, jQuery, jQuery UI
-                                        </p>
-                                    </Tab>
-                                    <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Work-Day-Scheduler">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
-                                        </a>
-                                    </Tab>
-                                    <Tab eventKey="project" title="Project" label="Project">
-                                        <div style={styles.project}>
-                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Work-Day-Scheduler/">
-                                                <img style={styles.img} src={WorkDayScheduler}
-                                                    alt="Work Day Scheduler" />
+                                            <a style={styles.project} className="project" href="https://fierce-wave-89071.herokuapp.com/">
+                                                <img style={styles.img} src={ReduxStore}
+                                                    alt="Redux Store" />
                                             </a>
                                         </div>
                                     </Tab>
                                 </Tabs>
                             </div >
                         </div >
-                        {/* Weather Dashboard */}
+                        {/* Book Search Engine */}
                         < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="weather-dashboard">
+                            <div className="book-search-engine">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
                                             <div>
-                                                Weather Dashboard
+                                                Book Search Engine
                                             </div>
                                         </div>
                                     </div>
@@ -495,37 +357,37 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description:  In this project I have created a weather dashboard that uses the OpenWeather API to show the forecast for different cities.
+                                            Description:  In this project I have taken a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server.
                                             <br />
                                             <br />
-                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, jQuery, jQuery UI, OpenWeatherMap API
+                                            Technologies:  Apollo client, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Bootstrap, Concurrently, Express, Graphql, Jsonwebtoken, Jwt-decode, Mongoose, Nodemon, React, React-bootstrap, React-dom, React-router-dom, React-scripts
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Weather-Dashboard">
+                                        <a className="github" href="https://github.com/avni0000patel/Book-Search-Engine">
                                             <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Weather-Dashboard/">
-                                                <img style={styles.img} src={WeatherDashboard}
-                                                    alt="Weather Dashboard" />
+                                            <a style={styles.project} className="project" href="https://gentle-brook-85225.herokuapp.com/">
+                                                <img style={styles.img} src={BookSearchEngine}
+                                                    alt="Book Search Engine" />
                                             </a>
                                         </div>
                                     </Tab>
                                 </Tabs>
                             </div >
                         </div >
-                        {/* Professional README Generator */}
+                        {/* Social Network API */}
                         < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="professional-readme-generator">
+                            <div className="social-network-API">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
                                             <div>
-                                                Professional README Generator
+                                                Social Network API
                                             </div>
                                         </div>
                                     </div>
@@ -541,21 +403,21 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description:  In this project I have created an application using node that creates a professional README for a user's project based on the user's input.
+                                            Description:  In this project I have built a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list.
                                             <br />
                                             <br />
-                                            Technologies:  JavaScript, Node JS, Inquirer
+                                            Technologies:  Javascript, Node JS, Express, Moment, Nodemon
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Professional-README-Generator">
+                                        <a className="github" href="https://github.com/avni0000patel/Social-Network-API">
                                             <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <img style={styles.img} src={ProfessionalREADMEGenerator}
-                                                alt="Professional README Generator" />
+                                            <img style={styles.img} src={SocialNetworkAPI}
+                                                alt="Social Network API" />
                                         </div>
                                         <p className="description text-light">
                                             Note:  Application is not deployed
@@ -564,15 +426,15 @@ export default function Portfolio() {
                                 </Tabs>
                             </div >
                         </div >
-                        {/* Team Profile Generator */}
+                        {/* Regex Tutorial */}
                         < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="team-profile-generator">
+                            <div className="regex-tutorial">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
                                             <div>
-                                                Team Profile Generator
+                                                Regex Tutorial
                                             </div>
                                         </div>
                                     </div>
@@ -588,159 +450,21 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description:  In this project I have created a team profile generator that displays summaries for each person.
+                                            Description:  In this project I have created a regex tutorial that writes about code.
                                             <br />
                                             <br />
-                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, Node JS, Inquirer, Jest
+                                            Technologies:  GitHub Gist
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Team-Profile-Generator">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        <a className="github" href="https://gist.github.com/avni0000patel/3ba423acbc4236b858409caa4486d6cb">
+                                            <p className="text-light">Click here to see the github gist for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <img style={styles.img} src={TeamProfileGenerator}
-                                                alt="Team Profile Generator" />
-                                        </div>
-                                        <p className="description text-light">
-                                            Note:  Application is not deployed
-                                        </p>
-                                    </Tab>
-                                </Tabs>
-                            </div >
-                        </div >
-                        {/* Note Taker */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="note-taker">
-                                <br />
-                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
-                                    <div className="row align-items-center h-100">
-                                        <div className="mx-auto">
-                                            <div>
-                                                Note Taker
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <br />
-
-                                <Tabs
-                                    defaultActiveKey="description"
-                                    transition={false}
-                                    id="justify-tab"
-                                    className="mb-3"
-                                >
-                                    <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
-                                            Description:  In this project I have created a Note Taker application to create and store notes.
-                                            <br />
-                                            <br />
-                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, Node JS, Inquirer, Express, UUID
-                                        </p>
-                                    </Tab>
-                                    <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Note-Taker">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
-                                        </a>
-                                    </Tab>
-                                    <Tab eventKey="project" title="Project" label="Project">
-                                        <a style={styles.project} className="project" href="https://fathomless-dawn-16383.herokuapp.com/">
-                                            <img style={styles.img} src={NoteTaker}
-                                                alt="Note Taker" />
-                                        </a>
-                                    </Tab>
-                                </Tabs>
-                            </div >
-                        </div >
-                        {/* Employee Tracker */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="employee-tracker">
-                                <br />
-                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
-                                    <div className="row align-items-center h-100">
-                                        <div className="mx-auto">
-                                            <div>
-                                                Employee Tracker
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <br />
-
-                                <Tabs
-                                    defaultActiveKey="description"
-                                    transition={false}
-                                    id="justify-tab"
-                                    className="mb-3"
-                                >
-                                    <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
-                                            Description:  In this project I have created an application that allows you to view and manage the departments, roles, and employees in a company.
-                                            <br />
-                                            <br />
-                                            Technologies:  JavaScript, Node JS, Inquirer, Console Table, MySQL
-                                        </p>
-                                    </Tab>
-                                    <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Employee-Tracker">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
-                                        </a>
-                                    </Tab>
-                                    <Tab eventKey="project" title="Project" label="Project">
-                                        <div style={styles.project}>
-                                            <img style={styles.img} src={EmployeeTracker}
-                                                alt="Employee Tracker" />
-                                        </div>
-                                        <p className="description text-light">
-                                            Note:  Application is not deployed
-                                        </p>
-                                    </Tab>
-                                </Tabs>
-                            </div >
-                        </div >
-                        {/* E-Commerce Back End */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="e-commerce-back-end">
-                                <br />
-                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
-                                    <div className="row align-items-center h-100">
-                                        <div className="mx-auto">
-                                            <div>
-                                                E-commerce Back End
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <br />
-
-                                <Tabs
-                                    defaultActiveKey="description"
-                                    transition={false}
-                                    id="justify-tab"
-                                    className="mb-3"
-                                >
-                                    <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
-                                            Description:  In this project I have built the back end for an e-commerce site.
-                                            <br />
-                                            <br />
-                                            Technologies:  JavaScript, Node JS, Express, MySQL, Sequelize, Dotenv
-                                        </p>
-                                    </Tab>
-                                    <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/E-commerce-Back-End">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
-                                        </a>
-                                    </Tab>
-                                    <Tab eventKey="project" title="Project" label="Project">
-                                        <div style={styles.project}>
-                                            <img style={styles.img} src={ECommerceBackEnd}
-                                                alt="E-commerce Back End" />
+                                            <img style={styles.img} src={RegexTutorial}
+                                                alt="Regex Tutorial" />
                                         </div>
                                         <p className="description text-light">
                                             Note:  Application is not deployed
@@ -795,15 +519,15 @@ export default function Portfolio() {
                                 </Tabs>
                             </div >
                         </div >
-                        {/* Regex Tutorial */}
+                        {/* E-Commerce Back End */}
                         < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="regex-tutorial">
+                            <div className="e-commerce-back-end">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
                                             <div>
-                                                Regex Tutorial
+                                                E-commerce Back End
                                             </div>
                                         </div>
                                     </div>
@@ -819,21 +543,21 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description:  In this project I have created a regex tutorial that writes about code.
+                                            Description:  In this project I have built the back end for an e-commerce site.
                                             <br />
                                             <br />
-                                            Technologies:  GitHub Gist
+                                            Technologies:  JavaScript, Node JS, Express, MySQL, Sequelize, Dotenv
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://gist.github.com/avni0000patel/3ba423acbc4236b858409caa4486d6cb">
-                                            <p className="text-light">Click here to see the github gist for this project!</p>
+                                        <a className="github" href="https://github.com/avni0000patel/E-commerce-Back-End">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <img style={styles.img} src={RegexTutorial}
-                                                alt="Regex Tutorial" />
+                                            <img style={styles.img} src={ECommerceBackEnd}
+                                                alt="E-commerce Back End" />
                                         </div>
                                         <p className="description text-light">
                                             Note:  Application is not deployed
@@ -842,16 +566,15 @@ export default function Portfolio() {
                                 </Tabs>
                             </div >
                         </div >
-
-                        {/* Social Network API */}
+                        {/* Employee Tracker */}
                         < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="social-network-API">
+                            <div className="employee-tracker">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
                                             <div>
-                                                Social Network API
+                                                Employee Tracker
                                             </div>
                                         </div>
                                     </div>
@@ -867,21 +590,21 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description:  In this project I have built a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list.
+                                            Description:  In this project I have created an application that allows you to view and manage the departments, roles, and employees in a company.
                                             <br />
                                             <br />
-                                            Technologies:  Javascript, Node JS, Express, Moment, Nodemon
+                                            Technologies:  JavaScript, Node JS, Inquirer, Console Table, MySQL
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Social-Network-API">
+                                        <a className="github" href="https://github.com/avni0000patel/Employee-Tracker">
                                             <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <img style={styles.img} src={SocialNetworkAPI}
-                                                alt="Social Network API" />
+                                            <img style={styles.img} src={EmployeeTracker}
+                                                alt="Employee Tracker" />
                                         </div>
                                         <p className="description text-light">
                                             Note:  Application is not deployed
@@ -890,15 +613,15 @@ export default function Portfolio() {
                                 </Tabs>
                             </div >
                         </div >
-                        {/* Book Search Engine */}
+                        {/* Note Taker */}
                         < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="book-search-engine">
+                            <div className="note-taker">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
                                             <div>
-                                                Book Search Engine
+                                                Note Taker
                                             </div>
                                         </div>
                                     </div>
@@ -914,37 +637,35 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description:  In this project I have taken a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server.
+                                            Description:  In this project I have created a Note Taker application to create and store notes.
                                             <br />
                                             <br />
-                                            Technologies:  Apollo client, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Bootstrap, Concurrently, Express, Graphql, Jsonwebtoken, Jwt-decode, Mongoose, Nodemon, React, React-bootstrap, React-dom, React-router-dom, React-scripts
+                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, Node JS, Inquirer, Express, UUID
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Book-Search-Engine">
+                                        <a className="github" href="https://github.com/avni0000patel/Note-Taker">
                                             <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
-                                        <div style={styles.project}>
-                                            <a style={styles.project} className="project" href="https://gentle-brook-85225.herokuapp.com/">
-                                                <img style={styles.img} src={BookSearchEngine}
-                                                    alt="Book Search Engine" />
-                                            </a>
-                                        </div>
+                                        <a style={styles.project} className="project" href="https://fathomless-dawn-16383.herokuapp.com/">
+                                            <img style={styles.img} src={NoteTaker}
+                                                alt="Note Taker" />
+                                        </a>
                                     </Tab>
                                 </Tabs>
                             </div >
                         </div >
-                        {/* Redux Store */}
+                        {/* Team Profile Generator */}
                         < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
-                            <div className="redux-store">
+                            <div className="team-profile-generator">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
                                             <div>
-                                                Redux Store
+                                                Team Profile Generator
                                             </div>
                                         </div>
                                     </div>
@@ -960,29 +681,306 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
-                                            Description: In this project I refactored an e-commerce platform that uses React's Context API to use Redux.
+                                            Description:  In this project I have created a team profile generator that displays summaries for each person.
                                             <br />
                                             <br />
-                                            Technologies:  Apollo client, Redux toolkit, Stripe, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Concurrently, Express, Graphql, Jsonwebtoken, Jwt-decode, Mongoose, Nodemon, React, React-bootstrap, React-dom, React-redux, React-router-dom, React-scripts
+                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, Node JS, Inquirer, Jest
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
-                                        <a className="github" href="https://github.com/avni0000patel/Redux-Store">
+                                        <a className="github" href="https://github.com/avni0000patel/Team-Profile-Generator">
                                             <p className="text-light">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
                                         <div style={styles.project}>
-                                            <a style={styles.project} className="project" href="https://fierce-wave-89071.herokuapp.com/">
-                                                <img style={styles.img} src={ReduxStore}
-                                                    alt="Redux Store" />
+                                            <img style={styles.img} src={TeamProfileGenerator}
+                                                alt="Team Profile Generator" />
+                                        </div>
+                                        <p className="description text-light">
+                                            Note:  Application is not deployed
+                                        </p>
+                                    </Tab>
+                                </Tabs>
+                            </div >
+                        </div >
+                        {/* Professional README Generator */}
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="professional-readme-generator">
+                                <br />
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                Professional README Generator
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description:  In this project I have created an application using node that creates a professional README for a user's project based on the user's input.
+                                            <br />
+                                            <br />
+                                            Technologies:  JavaScript, Node JS, Inquirer
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://github.com/avni0000patel/Professional-README-Generator">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <img style={styles.img} src={ProfessionalREADMEGenerator}
+                                                alt="Professional README Generator" />
+                                        </div>
+                                        <p className="description text-light">
+                                            Note:  Application is not deployed
+                                        </p>
+                                    </Tab>
+                                </Tabs>
+                            </div >
+                        </div >
+                        {/* Weather Dashboard */}
+                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="weather-dashboard">
+                                <br />
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                Weather Dashboard
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description:  In this project I have created a weather dashboard that uses the OpenWeather API to show the forecast for different cities.
+                                            <br />
+                                            <br />
+                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, jQuery, jQuery UI, OpenWeatherMap API
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://github.com/avni0000patel/Weather-Dashboard">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Weather-Dashboard/">
+                                                <img style={styles.img} src={WeatherDashboard}
+                                                    alt="Weather Dashboard" />
                                             </a>
                                         </div>
                                     </Tab>
                                 </Tabs>
                             </div >
                         </div >
+                        {/* Work Day Scheduler */}
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="work-day-scheduler">
+                                <br />
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                Work Day Scheduler
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description:  In this project I have created a work day scheduler so I can manage my time effectively.
+                                            <br />
+                                            <br />
+                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, jQuery, jQuery UI
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://github.com/avni0000patel/Work-Day-Scheduler">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Work-Day-Scheduler/">
+                                                <img style={styles.img} src={WorkDayScheduler}
+                                                    alt="Work Day Scheduler" />
+                                            </a>
+                                        </div>
+                                    </Tab>
+                                </Tabs>
+                            </div >
+                        </div >
+                        {/* Code Quiz */}
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="code-quiz">
+                                <br />
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                Code Quiz
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description:  In this project I have created a code quiz because coding assessments are an important part of the interview process for developers.
+                                            <br />
+                                            <br />
+                                            Technologies:  HTML, CSS, JavaScript
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://github.com/avni0000patel/Code-Quiz">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Code-Quiz/">
+                                                <img style={styles.img} src={CodeQuiz}
+                                                    alt="Code Quiz" />
+                                            </a>
+                                        </div>
+                                    </Tab>
+                                </Tabs>
+                            </div>
+                        </div>
+                        {/* Password Generator */}
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="password-generator">
+                                <br />
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                Password Generator
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description: In this project I have created a password generator to improve security and protect secure data.
+                                            <br />
+                                            <br />
+                                            Technologies: HTML, CSS, JavaScript
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://github.com/avni0000patel/Password-Generator">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Password-Generator/">
+                                                <img style={styles.img} src={PasswordGenerator}
+                                                    alt="Password Generator" />
+                                            </a>
+                                        </div>
+                                    </Tab>
+                                </Tabs>
+                            </div>
+                        </div>
+                        {/* Code Refractor*/}
+                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                            <div className="code-refractor">
+                                <br />
+                                <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
+                                    <div className="row align-items-center h-100">
+                                        <div className="mx-auto">
+                                            <div>
+                                                Code Refractor
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <Tabs
+                                    defaultActiveKey="description"
+                                    transition={false}
+                                    id="justify-tab"
+                                    className="mb-3"
+                                >
+                                    <Tab eventKey="description" title="Description" label="Description">
+                                        <p className="description text-light">
+                                            Description: In this project code has been refactored to meet accessibility standards.
+                                            <br />
+                                            <br />
+                                            Technologies: HTML, CSS
+                                        </p>
+                                    </Tab>
+                                    <Tab eventKey="github" title="Github" label="GitHub">
+                                        <a className="github" href="https://github.com/avni0000patel/Code-Refractor">
+                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                        </a>
+                                    </Tab>
+                                    <Tab eventKey="project" title="Project" label="Project">
+                                        <div style={styles.project}>
+                                            <a style={styles.project} className="project" href="https://avni0000patel.github.io/Code-Refractor/">
+                                                <img style={styles.img} src={Horiseon}
+                                                    alt="Horiseon Website" />
+                                            </a>
+                                        </div>
+                                    </Tab>
+                                </Tabs>
+                            </div>
+                        </div>
                     </div >
                 </div>
             </div>
