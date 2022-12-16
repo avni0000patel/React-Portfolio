@@ -2,8 +2,6 @@ import React from 'react';
 
 import { Tabs, Tab } from 'react-bootstrap-tabs';
 
-import ProfessionalPortfolio from '../../assets/images/portfolio.png';
-import Wanderlist from '../../assets/images/wanderlist.png';
 import RigMatchMe from '../../assets/images/rig-match-me-screenshot.png';
 import Horiseon from '../../assets/images/challenge01.png'
 import PasswordGenerator from '../../assets/images/password-generator-area.png';
@@ -19,7 +17,6 @@ import TechBlog from '../../assets/images/tech-blog-screenshot.png';
 import RegexTutorial from '../../assets/images/regex-tutorial.png';
 import SocialNetworkAPI from '../../assets/images/social-network-API.png';
 import BookSearchEngine from '../../assets/images/book-search-engine.png';
-import ReactPortfolio from '../../assets/images/react-portfolio.png';
 import ReduxStore from '../../assets/images/redux-store.png';
 import AutismFY from '../../assets/images/autismfylogo.png';
 
