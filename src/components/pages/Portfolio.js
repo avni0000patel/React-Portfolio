@@ -40,7 +40,7 @@ export default function Portfolio() {
             width: '300px',
         },
         pop: {
-            color: '#274C77',
+            color: '#white',
         }
     }
     return (

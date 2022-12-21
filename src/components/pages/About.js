@@ -18,7 +18,7 @@ export default function About() {
             fontSize: '30px',
         },
         pop: {
-            color: '#274C77',
+            color: 'white',
         }
     };
     return (
@@ -46,7 +46,7 @@ export default function About() {
                     <div className="row justify-content-around">
                         <div className="col-12">
                             <p>
-                                Welcome to my story as a full stack web developer! I have a passion for solving puzzles and solving intriguing problems that others haven't solved yet. My motivation is my desire to transition to a field that provides job satisfaction from having the flexibility to be creative, seeing the result from start to end, and the wide range of opportunities in this field. My goal is to continuously learn. There is always something to learn and through my achievements, the opportunity to boost my career prospects is available.
+                                Welcome to my story as a full stack web developer! I have a background in finance and mathematics, as well as training from University of Pennsylvania in full stack web development. I have experience building projects using JavaScript, Node, SQL, MongoDB, React, and other technologies and solving problems through analysis and building systems and using technology to streamline the problem-solving process.
                             </p>
                         </div>
                     </div>

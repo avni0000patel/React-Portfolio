@@ -8,7 +8,7 @@ export default function Resume() {
             paddingBottom: '60px',
         },
         pop: {
-            color: '#274C77',
+            color: 'white',
         }
     }
     return (

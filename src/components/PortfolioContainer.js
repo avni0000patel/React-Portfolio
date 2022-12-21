@@ -5,12 +5,16 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume'
+import background from '../assets/images/background2.webp';
 
 export default function PortfolioContainer() {
     const styles = {
         all: {
-            backgroundColor: '#6096BA',
+            // backgroundColor: '#6096BA',
+            backgroundImage: `url(${background})`,
             color: '#ffffff',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
             minHeight: '100vh',
             fontFamily: 'Playfair Display'
         },

@@ -11,7 +11,7 @@ export default function Contact() {
             paddingBottom: '60px',
         },
         pop: {
-            color: '#274C77',
+            color: 'white',
         }
     }
 
