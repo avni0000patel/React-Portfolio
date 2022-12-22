@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.eeea0c32.css",
-    "main.js": "/React-Portfolio/static/js/main.393bae3a.js",
+    "main.js": "/React-Portfolio/static/js/main.11b31353.js",
     "static/media/challenge01.png": "/React-Portfolio/static/media/challenge01.c8812e5ade2281af93c1.png",
     "static/media/rig-match-me-screenshot.png": "/React-Portfolio/static/media/rig-match-me-screenshot.4ebcdb055a9d0c2c6294.png",
     "static/media/book-search-engine.png": "/React-Portfolio/static/media/book-search-engine.258197c8c2557ada1091.png",
@@ -13,7 +13,6 @@
     "static/media/regex-tutorial.png": "/React-Portfolio/static/media/regex-tutorial.63167d357dbc52a3a0d6.png",
     "static/media/employee-tracker.png": "/React-Portfolio/static/media/employee-tracker.c9b6dfb30894c4492e45.png",
     "static/media/note-taker.png": "/React-Portfolio/static/media/note-taker.354dceffcc63a9104a06.png",
-    "static/media/Avni_Patel_Resume.pdf": "/React-Portfolio/static/media/Avni_Patel_Resume.b8860a4066bc958d6b8d.pdf",
     "static/media/tech-blog-screenshot.png": "/React-Portfolio/static/media/tech-blog-screenshot.f5887fb4068d68607a83.png",
     "static/media/password-generator-area.png": "/React-Portfolio/static/media/password-generator-area.60e53af6d0978445a892.png",
     "static/media/work-day-scheduler-area.png": "/React-Portfolio/static/media/work-day-scheduler-area.a0d3408aaaf09b05c240.png",
@@ -23,12 +22,13 @@
     "static/media/background2.webp": "/React-Portfolio/static/media/background2.dc26bfc00477f6a8ae7c.webp",
     "static/media/search.png": "/React-Portfolio/static/media/search.d6f085b2249698789447.png",
     "static/media/background.webp": "/React-Portfolio/static/media/background.1048927a3c2acd61f0b0.webp",
+    "static/media/AvniPatelResume.docx": "/React-Portfolio/static/media/AvniPatelResume.3b57e48d60ceeed269c4.docx",
     "index.html": "/React-Portfolio/index.html",
     "main.eeea0c32.css.map": "/React-Portfolio/static/css/main.eeea0c32.css.map",
-    "main.393bae3a.js.map": "/React-Portfolio/static/js/main.393bae3a.js.map"
+    "main.11b31353.js.map": "/React-Portfolio/static/js/main.11b31353.js.map"
   },
   "entrypoints": [
     "static/css/main.eeea0c32.css",
-    "static/js/main.393bae3a.js"
+    "static/js/main.11b31353.js"
   ]
 }
