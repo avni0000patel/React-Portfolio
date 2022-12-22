@@ -49,10 +49,6 @@ export default function Portfolio() {
         pop: {
             color: '#white',
         },
-        link: {
-            backgroundColor: "black",
-            color: 'white'
-        }
     }
     return (
         <section style={styles.top}>
@@ -85,7 +81,6 @@ export default function Portfolio() {
                                     transition={false}
                                     id="justify-tab"
                                     className="mb-3"
-                                    style={styles.link}
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">
