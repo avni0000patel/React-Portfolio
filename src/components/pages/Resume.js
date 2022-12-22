@@ -1,5 +1,18 @@
 import React from 'react';
 import PDF from '../../assets/Avni_Patel_Resume.pdf'
+import { IoLogoHtml5 } from "react-icons/io";
+import { IoLogoCss3 } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io";
+import { DiBootstrap } from "react-icons/di";
+import { DiJqueryLogo } from "react-icons/di";
+import { AiFillApi } from "react-icons/ai";
+import { IoLogoNodejs } from "react-icons/io";
+import { SiExpress } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { SiSequelize } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiGraphql } from "react-icons/si";
+import background from '../../assets/images/background.webp';
 
 export default function Resume() {
     const styles = {
@@ -9,6 +22,31 @@ export default function Resume() {
         },
         pop: {
             color: 'white',
+        },
+        icons: {
+            color: 'white',
+            height: '30px',
+            width: '30px',
+            marginTop: '5px',
+        },
+        proficiencies: {
+            display: 'flex',
+            marginLeft: '20px',
+        },
+        card: {
+            // backgroundColor: '#274C77',
+            backgroundImage: `url(${background})`,
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            border: '1px solid white',
+            marginLeft: '20px',
+            marginRight: '20px',
+        },
+        title: {
+            marginLeft: '20px',
+        },
+        description: {
+            marginLeft: '40px',
         }
     }
     return (
@@ -18,84 +56,69 @@ export default function Resume() {
                 <h1 style={styles.pop} className="text-center">Resume Page</h1>
                 <br />
             </div>
-            <div className="download">
-                <div className="container">
-                    <div className="row">
-                        <div>
-                            <div>Resume:</div>
-                            <ul>
-                                <li>
-                                    <a className="card text-dark" href={PDF}>Click here to download resume!</a>
-                                </li>
-                            </ul>
-                        </div>
+            <div className="card bg-dark mb-3" style={styles.card}>
+                <div className="download">
+                    <div>
+                        <div className="title" style={styles.title}>Resume:</div>
+                        <a className="text-light description" style={styles.description} href={PDF}>Click here to download resume!</a>
                     </div>
                 </div>
             </div>
-            {/* <div className="technical-skills">
-                <div className="container">
-                    <div className="row d-flex justify-content-around">
-                        <div>
-                            Git, HTML, CSS, JavaScript, Bootstrap, The DOM, APIs, jQuery, JSON, AJAX, Node, ES6, Object-Oriented Programming, Express, MySQL, MVC paradigm, Sequelize, Testing, and Agile Development, NoSQL, React, MERN Stack, and fundamentals in Computer Science.
-                        </div>
+            <div className="card bg-dark mb-3" style={styles.card}>
+                <div className="title" style={styles.title}>Front-End Proficiencies:</div>
+                <div className="proficiencies" style={styles.proficiencies}>
+                    <div className="skill ms-3">
+                        <IoLogoHtml5 style={styles.icons} className='ms-3' />
+                        <div className="">HTML</div>
+                    </div>
+                    <div className="skill ms-3">
+                        <IoLogoCss3 style={styles.icons} className='ms-3' />
+                        <div className="">CSS</div>
+                    </div>
+                    <div className="skill ms-3">
+                        <IoLogoJavascript style={styles.icons} className='ms-3' />
+                        <div className="">JavaScript</div>
+                    </div>
+                    <div className="skill ms-3">
+                        <DiBootstrap style={styles.icons} className='ms-3' />
+                        <div className="">Bootstrap</div>
+                    </div>
+                    <div className="skill ms-3">
+                        <DiJqueryLogo style={styles.icons} className='ms-3' />
+                        <div className="">jQuery</div>
                     </div>
                 </div>
-            </div> */}
-            <div className="proficiences">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12 col-md-6">
-                            <div>Front-End Proficiencies:</div>
-                            <ul>
-                                <li>
-                                    <div className="card text-dark">HTML</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">CSS</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">JavaScript</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">Bootstrap</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">jQuery</div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="col-12 col-md-6">
-                            <div>Back-End Proficiencies:</div>
-                            <ul>
-                                <li>
-                                    <div className="card text-dark">APIs</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">Node</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">Express</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">MySQL</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">Sequelize</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">MongoDB</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">Mongoose</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">REST</div>
-                                </li>
-                                <li>
-                                    <div className="card text-dark">GraphQL</div>
-                                </li>
-                            </ul>
-                        </div>
+            </div>
+            <div className="card bg-dark mb-3" style={styles.card}>
+                <div className="title" style={styles.title}>Back-End Proficiencies:</div>
+                <div className="proficiencies" style={styles.proficiencies}>
+                    <div className="skill ms-3">
+                        <AiFillApi style={styles.icons} className='ms-3' />
+                        <div className="">APIs</div>
+                    </div>
+                    <div className="skill ms-3">
+                        <IoLogoNodejs style={styles.icons} className='ms-3' />
+                        <div className="">Node</div>
+                    </div>
+                    <div className="skill ms-3">
+                        <SiExpress style={styles.icons} className='ms-3' />
+                        <div className="">Express</div>
+                    </div>
+                    <div className="skill ms-3">
+                        <SiMysql style={styles.icons} className='ms-3' />
+                        <div className="">MySQL</div>
+                    </div>
+                    <div className="skill ms-3">
+                        <SiSequelize style={styles.icons} className='ms-3' />
+                        <div className="">Sequelize</div>
+                    </div>
+                    <div className="skill ms-3">
+                        <SiMongodb style={styles.icons} className='ms-3' />
+                        <div className="">MongoDB</div>
+                    </div>
+                    <div className="skill ms-3">
+                        <SiGraphql style={styles.icons} className='ms-3' />
+                        <div className="">GraphQL</div>
                     </div>
                 </div>
             </div>
