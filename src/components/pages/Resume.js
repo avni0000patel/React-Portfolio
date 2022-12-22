@@ -1,5 +1,5 @@
 import React from 'react';
-import PDF from '../../assets/AvniPatelResume.docx'
+import PDF from '../../assets/AvniPatelResume.pdf';
 import { IoLogoHtml5 } from "react-icons/io";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io";
