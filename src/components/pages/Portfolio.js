@@ -19,6 +19,9 @@ import SocialNetworkAPI from '../../assets/images/social-network-API.png';
 import BookSearchEngine from '../../assets/images/book-search-engine.png';
 import ReduxStore from '../../assets/images/redux-store.png';
 import AutismFY from '../../assets/images/autismfylogo.png';
+import background from '../../assets/images/background.webp';
+
+import './Profile.css';
 
 export default function Portfolio() {
     const styles = {
@@ -27,10 +30,14 @@ export default function Portfolio() {
             paddingBottom: '60px',
         },
         card: {
-            backgroundColor: '#274C77',
+            // backgroundColor: '#274C77',
+            backgroundImage: `url(${background})`,
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            border: '1px solid white'
         },
         cardHeader: {
-            backgroundColor: '#6096ba',
+            backgroundColor: 'black',
         },
         project: {
             textAlign: 'center',
@@ -41,6 +48,10 @@ export default function Portfolio() {
         },
         pop: {
             color: '#white',
+        },
+        link: {
+            backgroundColor: "black",
+            color: 'white'
         }
     }
     return (
@@ -74,6 +85,7 @@ export default function Portfolio() {
                                     transition={false}
                                     id="justify-tab"
                                     className="mb-3"
+                                    style={styles.link}
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="description text-light">

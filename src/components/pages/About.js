@@ -46,7 +46,7 @@ export default function About() {
                     <div className="row justify-content-around">
                         <div className="col-12">
                             <p>
-                                Welcome to my story as a full stack web developer! I have a background in finance and mathematics, as well as training from University of Pennsylvania in full stack web development. I have experience building projects using JavaScript, Node, SQL, MongoDB, React, and other technologies and solving problems through analysis and building systems and using technology to streamline the problem-solving process.
+                                Welcome to my story as a full stack web developer! I have a background in finance and mathematics, as well as training from University of Pennsylvania in full stack web development. I have experience building projects using JavaScript, Node, SQL, MongoDB, React, and other technologies.
                             </p>
                         </div>
                     </div>
