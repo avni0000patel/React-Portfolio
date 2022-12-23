@@ -61,13 +61,13 @@ export default function Portfolio() {
                 <div className="container">
                     <div className="row gy-3 justify-center justify-content-around">
                         {/* AutismFY */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="rig-match-me">
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 AutismFY
                                             </div>
                                         </div>
@@ -108,13 +108,13 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Rig Match Me */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="rig-match-me">
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Rig Match Me
                                             </div>
                                         </div>
@@ -154,13 +154,13 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Redux Store */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="redux-store">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Redux Store
                                             </div>
                                         </div>
@@ -200,13 +200,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Book Search Engine */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="book-search-engine">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Book Search Engine
                                             </div>
                                         </div>
@@ -246,13 +246,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Social Network API */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="social-network-API">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Social Network API
                                             </div>
                                         </div>
@@ -293,13 +293,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Regex Tutorial */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="regex-tutorial">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Regex Tutorial
                                             </div>
                                         </div>
@@ -340,13 +340,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Tech Blog */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="tech-blog">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Tech Blog
                                             </div>
                                         </div>
@@ -386,13 +386,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* E-Commerce Back End */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="e-commerce-back-end">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 E-commerce Back End
                                             </div>
                                         </div>
@@ -433,13 +433,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Employee Tracker */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="employee-tracker">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Employee Tracker
                                             </div>
                                         </div>
@@ -480,13 +480,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Note Taker */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="note-taker">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Note Taker
                                             </div>
                                         </div>
@@ -524,13 +524,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Team Profile Generator */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="team-profile-generator">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Team Profile Generator
                                             </div>
                                         </div>
@@ -571,13 +571,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Professional README Generator */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="professional-readme-generator">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Professional README Generator
                                             </div>
                                         </div>
@@ -618,13 +618,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Weather Dashboard */}
-                        < div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="weather-dashboard">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Weather Dashboard
                                             </div>
                                         </div>
@@ -664,13 +664,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Work Day Scheduler */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="work-day-scheduler">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Work Day Scheduler
                                             </div>
                                         </div>
@@ -710,13 +710,13 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Code Quiz */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="code-quiz">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Code Quiz
                                             </div>
                                         </div>
@@ -756,13 +756,13 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Password Generator */}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="password-generator">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Password Generator
                                             </div>
                                         </div>
@@ -802,13 +802,13 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Code Refractor*/}
-                        <div style={styles.card} className="card col-12 col-md-6 col-lg-4">
+                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
                             <div className="code-refractor">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div>
+                                            <div className="title">
                                                 Code Refractor
                                             </div>
                                         </div>

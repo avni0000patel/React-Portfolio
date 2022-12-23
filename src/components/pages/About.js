@@ -2,6 +2,8 @@ import React from 'react';
 
 import Me from '../../assets/images/profilePicture.jpg';
 
+import './About.css';
+
 export default function About() {
     const styles = {
         top: {
@@ -19,6 +21,9 @@ export default function About() {
         },
         pop: {
             color: 'white',
+        },
+        green: {
+            color: 'green',
         }
     };
     return (
@@ -30,14 +35,14 @@ export default function About() {
             </div>
             <div>
                 <div style={styles.aboutMe} className="about-me">
-                    <img style={styles.me} src={Me} className="rounded-circle img-thumbnail"
+                    <img style={styles.me} src={Me} className="me rounded-circle img-thumbnail"
                         alt="Avni Patel" />
                 </div>
                 <br />
                 <div style={styles.hello} className="text-center">
-                    Hello, I'm Avni Patel.
+                    Hello, my name is <span className="green" style={styles.green}>Avni Patel</span>
                     <br />
-                    I'm a full stack web developer.
+                    I'm a <span className="green" style={styles.green}>Full Stack Developer</span>
                 </div>
             </div>
             <br />

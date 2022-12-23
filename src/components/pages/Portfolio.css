@@ -17,3 +17,12 @@
 .nav-tabs .nav-link:hover {
     color: white;
 }
+
+.project {
+    filter: grayscale(15%) opacity(75%) hue-rotate(10deg) drop-shadow(0 0 0 transparent);
+    transition: all 250ms ease-out;
+}
+
+.project:hover {
+    filter: grayscale(0%) opacity(100%) hue-rotate(0deg) drop-shadow(0 0 0 transparent);
+}

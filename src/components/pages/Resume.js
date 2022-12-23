@@ -13,6 +13,7 @@ import { SiSequelize } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiGraphql } from "react-icons/si";
 import background from '../../assets/images/background2.webp';
+import './Resume.css';
 
 export default function Resume() {
     const styles = {
@@ -53,7 +54,7 @@ export default function Resume() {
             </div>
             <div className='row mt-3'>
                 <div className='col'>
-                    <div className='card' style={styles.card}>
+                    <div className='skill card' style={styles.card}>
                         <div className='row card-body'>
                             <div className='col-sm-12'>
                                 <h3 className='card-title'>
@@ -71,7 +72,7 @@ export default function Resume() {
             </div>
             <div className='row mt-3'>
                 <div className='col'>
-                    <div className='card' style={styles.card}>
+                    <div className='skill card' style={styles.card}>
                         <div className='row card-body'>
                             <div className='col-sm-12'>
                                 <h3 className='card-title'>
@@ -94,7 +95,7 @@ export default function Resume() {
             </div>
             <div className='row mt-3'>
                 <div className='col'>
-                    <div className='card' style={styles.card}>
+                    <div className='skill card' style={styles.card}>
                         <div className='row card-body'>
                             <div className='col-sm-12'>
                                 <h3 className='card-title'>
