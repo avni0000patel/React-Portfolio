@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.eeea0c32.css",
-    "main.js": "/React-Portfolio/static/js/main.ba4b27cb.js",
+    "main.css": "/React-Portfolio/static/css/main.6cfed2b9.css",
+    "main.js": "/React-Portfolio/static/js/main.74f05a5a.js",
     "static/media/challenge01.png": "/React-Portfolio/static/media/challenge01.c8812e5ade2281af93c1.png",
     "static/media/rig-match-me-screenshot.png": "/React-Portfolio/static/media/rig-match-me-screenshot.4ebcdb055a9d0c2c6294.png",
     "static/media/book-search-engine.png": "/React-Portfolio/static/media/book-search-engine.258197c8c2557ada1091.png",
@@ -24,11 +24,11 @@
     "static/media/background2.webp": "/React-Portfolio/static/media/background2.dc26bfc00477f6a8ae7c.webp",
     "static/media/search.png": "/React-Portfolio/static/media/search.d6f085b2249698789447.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.eeea0c32.css.map": "/React-Portfolio/static/css/main.eeea0c32.css.map",
-    "main.ba4b27cb.js.map": "/React-Portfolio/static/js/main.ba4b27cb.js.map"
+    "main.6cfed2b9.css.map": "/React-Portfolio/static/css/main.6cfed2b9.css.map",
+    "main.74f05a5a.js.map": "/React-Portfolio/static/js/main.74f05a5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeea0c32.css",
-    "static/js/main.ba4b27cb.js"
+    "static/css/main.6cfed2b9.css",
+    "static/js/main.74f05a5a.js"
   ]
 }
