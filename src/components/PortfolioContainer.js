@@ -5,7 +5,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume'
-import background from '../assets/images/background2.webp';
+import background from '../assets/images/background3.webp';
 
 export default function PortfolioContainer() {
     const styles = {

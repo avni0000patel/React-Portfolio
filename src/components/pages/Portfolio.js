@@ -19,9 +19,9 @@ import SocialNetworkAPI from '../../assets/images/social-network-API.png';
 import BookSearchEngine from '../../assets/images/book-search-engine.png';
 import ReduxStore from '../../assets/images/redux-store.png';
 import AutismFY from '../../assets/images/autismfylogo.png';
-import background from '../../assets/images/background.webp';
+import background from '../../assets/images/background2.webp';
 
-import './Profile.css';
+import './Portfolio.css';
 
 export default function Portfolio() {
     const styles = {

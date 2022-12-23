@@ -12,8 +12,7 @@ import { SiMysql } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiGraphql } from "react-icons/si";
-import background from '../../assets/images/background.webp';
-import { BsFileX } from 'react-icons/bs';
+import background from '../../assets/images/background2.webp';
 
 export default function Resume() {
     const styles = {
