@@ -13,6 +13,7 @@ import { SiSequelize } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiGraphql } from "react-icons/si";
 import background from '../../assets/images/background.webp';
+import { BsFileX } from 'react-icons/bs';
 
 export default function Resume() {
     const styles = {
@@ -23,16 +24,6 @@ export default function Resume() {
         pop: {
             color: 'white',
         },
-        icons: {
-            color: 'white',
-            height: '30px',
-            width: '30px',
-            marginTop: '5px',
-        },
-        proficiencies: {
-            display: 'flex',
-            marginLeft: '20px',
-        },
         card: {
             // backgroundColor: '#274C77',
             backgroundImage: `url(${background})`,
@@ -42,11 +33,16 @@ export default function Resume() {
             marginLeft: '20px',
             marginRight: '20px',
         },
-        title: {
-            marginLeft: '20px',
+        icons: {
+            color: 'white',
+            height: '60px',
+            width: '60px',
+            marginTop: '5px',
         },
-        description: {
-            marginLeft: '40px',
+        skill: {
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
         }
     }
     return (
@@ -56,69 +52,68 @@ export default function Resume() {
                 <h1 style={styles.pop} className="text-center">Resume Page</h1>
                 <br />
             </div>
-            <div className="card bg-dark mb-3" style={styles.card}>
-                <div className="download">
-                    <div>
-                        <div className="title" style={styles.title}>Resume:</div>
-                        <a className="text-light description" style={styles.description} href={PDF}>Click here to download resume!</a>
+            <div className='row mt-3'>
+                <div className='col'>
+                    <div className='card' style={styles.card}>
+                        <div className='row card-body'>
+                            <div className='col-sm-12'>
+                                <h3 className='card-title'>
+                                    Resume:
+                                </h3>
+                                <hr></hr>
+
+                                <div className='row'>
+                                    <a className="text-light description" style={styles.description} href={PDF}>Click here to download resume!</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="card bg-dark mb-3" style={styles.card}>
-                <div className="title" style={styles.title}>Front-End Proficiencies:</div>
-                <div className="proficiencies" style={styles.proficiencies}>
-                    <div className="skill ms-3">
-                        <IoLogoHtml5 style={styles.icons} className='ms-3' />
-                        <div className="">HTML</div>
-                    </div>
-                    <div className="skill ms-3">
-                        <IoLogoCss3 style={styles.icons} className='ms-3' />
-                        <div className="">CSS</div>
-                    </div>
-                    <div className="skill ms-3">
-                        <IoLogoJavascript style={styles.icons} className='ms-3' />
-                        <div className="">JavaScript</div>
-                    </div>
-                    <div className="skill ms-3">
-                        <DiBootstrap style={styles.icons} className='ms-3' />
-                        <div className="">Bootstrap</div>
-                    </div>
-                    <div className="skill ms-3">
-                        <DiJqueryLogo style={styles.icons} className='ms-3' />
-                        <div className="">jQuery</div>
+            <div className='row mt-3'>
+                <div className='col'>
+                    <div className='card' style={styles.card}>
+                        <div className='row card-body'>
+                            <div className='col-sm-12'>
+                                <h3 className='card-title'>
+                                    Front-End Proficiencies:
+                                </h3>
+                                <hr></hr>
+
+                                <div className='row'>
+                                    <IoLogoHtml5 style={styles.icons} className='ms-3' />
+                                    <IoLogoHtml5 style={styles.icons} className='ms-3' />
+                                    <IoLogoCss3 style={styles.icons} className='ms-3' />
+                                    <IoLogoJavascript style={styles.icons} className='ms-3' />
+                                    <DiBootstrap style={styles.icons} className='ms-3' />
+                                    <DiJqueryLogo style={styles.icons} className='ms-3' />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="card bg-dark mb-3" style={styles.card}>
-                <div className="title" style={styles.title}>Back-End Proficiencies:</div>
-                <div className="proficiencies" style={styles.proficiencies}>
-                    <div className="skill ms-3">
-                        <AiFillApi style={styles.icons} className='ms-3' />
-                        <div className="">APIs</div>
-                    </div>
-                    <div className="skill ms-3">
-                        <IoLogoNodejs style={styles.icons} className='ms-3' />
-                        <div className="">Node</div>
-                    </div>
-                    <div className="skill ms-3">
-                        <SiExpress style={styles.icons} className='ms-3' />
-                        <div className="">Express</div>
-                    </div>
-                    <div className="skill ms-3">
-                        <SiMysql style={styles.icons} className='ms-3' />
-                        <div className="">MySQL</div>
-                    </div>
-                    <div className="skill ms-3">
-                        <SiSequelize style={styles.icons} className='ms-3' />
-                        <div className="">Sequelize</div>
-                    </div>
-                    <div className="skill ms-3">
-                        <SiMongodb style={styles.icons} className='ms-3' />
-                        <div className="">MongoDB</div>
-                    </div>
-                    <div className="skill ms-3">
-                        <SiGraphql style={styles.icons} className='ms-3' />
-                        <div className="">GraphQL</div>
+            <div className='row mt-3'>
+                <div className='col'>
+                    <div className='card' style={styles.card}>
+                        <div className='row card-body'>
+                            <div className='col-sm-12'>
+                                <h3 className='card-title'>
+                                    Back-End Proficiencies:
+                                </h3>
+                                <hr></hr>
+
+                                <div className='row'>
+                                    <AiFillApi style={styles.icons} className='ms-3' />
+                                    <IoLogoNodejs style={styles.icons} className='ms-3' />
+                                    <SiExpress style={styles.icons} className='ms-3' />
+                                    <SiMysql style={styles.icons} className='ms-3' />
+                                    <SiSequelize style={styles.icons} className='ms-3' />
+                                    <SiMongodb style={styles.icons} className='ms-3' />
+                                    <SiGraphql style={styles.icons} className='ms-3' />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
