@@ -4,7 +4,7 @@ import { Tabs, Tab } from 'react-bootstrap-tabs';
 
 import RigMatchMe from '../../assets/images/rig-match-me-screenshot.png';
 import Horiseon from '../../assets/images/challenge01.png'
-import PasswordGenerator from '../../assets/images/password-generator-area.png';
+import PasswordGenerator from '../../assets/images/password-generator.png';
 import CodeQuiz from '../../assets/images/code-quiz-area.png';
 import WorkDayScheduler from '../../assets/images/work-day-scheduler-area.png';
 import WeatherDashboard from '../../assets/images/search.png';
