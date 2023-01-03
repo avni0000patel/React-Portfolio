@@ -82,7 +82,6 @@ export default function Resume() {
 
                                 <div className='row'>
                                     <IoLogoHtml5 style={styles.icons} className='ms-3' />
-                                    <IoLogoHtml5 style={styles.icons} className='ms-3' />
                                     <IoLogoCss3 style={styles.icons} className='ms-3' />
                                     <IoLogoJavascript style={styles.icons} className='ms-3' />
                                     <DiBootstrap style={styles.icons} className='ms-3' />
