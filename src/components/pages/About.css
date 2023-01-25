@@ -1,8 +1,45 @@
+.top {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about-page {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.me {
+    border-radius: 50%;
+    border: 1px solid #dee2e6;
+    padding: 0.25rem;
+    background-color: #fff;
+    max-width: 100%;
+    height: 200px;
+}
+
 .hello {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 30px;
+    color: green;
     filter: grayscale(15%) opacity(75%) hue-rotate(10deg) drop-shadow(0 0 0 transparent);
     transition: all 250ms ease-out;
 }
 
 .hello:hover {
     filter: grayscale(0%) opacity(100%) hue-rotate(0deg) drop-shadow(0 0 0 transparent);
+}
+
+.bio {
+    display: flex;
+    text-align: center;
+    margin: 15px;
+    font-size: 18px;
+    color: white;
 }

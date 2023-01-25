@@ -63,7 +63,7 @@ export default function Resume() {
     }
     return (
         <section style={styles.top}>
-            <div style={styles.title} className="resume">
+            <div style={styles.title} className="resume-page">
                 <br />
                 <h1>Resume Page</h1>
                 <br />

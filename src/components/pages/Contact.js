@@ -78,7 +78,7 @@ export default function Contact() {
 
     return (
         <section style={styles.top}>
-            <div style={styles.title} className="portfolio">
+            <div style={styles.title} className="contact-page">
                 <br />
                 <h1>Contact Page</h1>
                 <br />

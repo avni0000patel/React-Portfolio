@@ -55,7 +55,7 @@ export default function Portfolio() {
     }
     return (
         <section style={styles.top}>
-            <div style={styles.title} id="portfolio" className="portfolio">
+            <div style={styles.title} id="portfolio" className="portfolio-page">
                 <br />
                 <h1>Portfolio Page</h1>
                 <br />
@@ -70,7 +70,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 AutismFY
                                             </div>
                                         </div>
@@ -86,7 +86,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description: In this project we have created an application that is designed to help parents and caregivers of younger Autistic children create routine To-Do Lists, log important information in a Notes tab, share and connect with other parents and caregivers by creating posts.
                                             <br />
                                             <br />
@@ -117,7 +117,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Rig Match Me
                                             </div>
                                         </div>
@@ -133,7 +133,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description: In this project we have created an application that provides a guided tour of instruments to help steer the user towards getting properly setup for the genre of music they are interested in playing.
                                             <br />
                                             <br />
@@ -163,7 +163,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Redux Store
                                             </div>
                                         </div>
@@ -179,7 +179,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description: In this project I refactored an e-commerce platform that uses React's Context API to use Redux.
                                             <br />
                                             <br />
@@ -209,7 +209,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Book Search Engine
                                             </div>
                                         </div>
@@ -225,7 +225,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have taken a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server.
                                             <br />
                                             <br />
@@ -255,7 +255,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Social Network API
                                             </div>
                                         </div>
@@ -271,7 +271,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have built a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list.
                                             <br />
                                             <br />
@@ -302,7 +302,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Regex Tutorial
                                             </div>
                                         </div>
@@ -318,7 +318,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have created a regex tutorial that writes about code.
                                             <br />
                                             <br />
@@ -349,7 +349,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Tech Blog
                                             </div>
                                         </div>
@@ -365,7 +365,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have created a tech blog that is a CMS-style blog site similar to a Wordpress site.
                                             <br />
                                             <br />
@@ -395,7 +395,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 E-commerce Back End
                                             </div>
                                         </div>
@@ -411,7 +411,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have built the back end for an e-commerce site.
                                             <br />
                                             <br />
@@ -442,7 +442,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Employee Tracker
                                             </div>
                                         </div>
@@ -458,7 +458,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have created an application that allows you to view and manage the departments, roles, and employees in a company.
                                             <br />
                                             <br />
@@ -489,7 +489,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Note Taker
                                             </div>
                                         </div>
@@ -505,7 +505,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have created a Note Taker application to create and store notes.
                                             <br />
                                             <br />
@@ -533,7 +533,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Team Profile Generator
                                             </div>
                                         </div>
@@ -549,7 +549,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have created a team profile generator that displays summaries for each person.
                                             <br />
                                             <br />
@@ -580,7 +580,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Professional README Generator
                                             </div>
                                         </div>
@@ -596,7 +596,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have created an application using node that creates a professional README for a user's project based on the user's input.
                                             <br />
                                             <br />
@@ -627,7 +627,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Weather Dashboard
                                             </div>
                                         </div>
@@ -643,7 +643,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have created a weather dashboard that uses the OpenWeather API to show the forecast for different cities.
                                             <br />
                                             <br />
@@ -673,7 +673,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Work Day Scheduler
                                             </div>
                                         </div>
@@ -689,7 +689,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have created a work day scheduler so I can manage my time effectively.
                                             <br />
                                             <br />
@@ -719,7 +719,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Code Quiz
                                             </div>
                                         </div>
@@ -735,7 +735,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description:  In this project I have created a code quiz because coding assessments are an important part of the interview process for developers.
                                             <br />
                                             <br />
@@ -765,7 +765,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Password Generator
                                             </div>
                                         </div>
@@ -781,7 +781,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description: In this project I have created a password generator to improve security and protect secure data.
                                             <br />
                                             <br />
@@ -811,7 +811,7 @@ export default function Portfolio() {
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
                                     <div className="row align-items-center h-100">
                                         <div className="mx-auto">
-                                            <div className="title">
+                                            <div className="project-name">
                                                 Code Refractor
                                             </div>
                                         </div>
@@ -827,7 +827,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="description text-light">
+                                        <p className="project-description text-light">
                                             Description: In this project code has been refactored to meet accessibility standards.
                                             <br />
                                             <br />
