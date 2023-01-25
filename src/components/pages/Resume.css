@@ -1,8 +1,52 @@
-.skill {
+.top {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.resume-page {
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+.page-name {
+    font-weight: bold;
+}
+
+.resume-card {
+    background-image: url(/src/assets/images/background2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    margin: 25px 25px;
     filter: grayscale(15%) opacity(75%) hue-rotate(10deg) drop-shadow(0 0 0 transparent);
     transition: all 250ms ease-out;
 }
 
-.skill:hover {
+.resume-card:hover {
     filter: grayscale(0%) opacity(100%) hue-rotate(0deg) drop-shadow(0 0 0 transparent);
+}
+
+.resume-card-title {
+    color: white;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.card-description {
+    color: white;
+    margin: 5px;
+}
+
+.card-description-text {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.icons {
+    color: white;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
 }

@@ -8,7 +8,7 @@ export default function About() {
     return (
         <section className="top">
             <div className="about-page">
-                <h1>About Page</h1>
+                <h1 className="page-name">About Page</h1>
             </div>
             <div className="about-me">
                 <img src={Me} className="me"

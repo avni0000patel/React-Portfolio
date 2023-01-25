@@ -16,7 +16,9 @@ const Header = () => {
             borderBottom: '1px solid white',
         },
         app__button: {
-            color: "white",
+            color: "green",
+            fontWeight: 'bold',
+            fontSize: '22px',
             textDecoration: 'none',
         },
     };

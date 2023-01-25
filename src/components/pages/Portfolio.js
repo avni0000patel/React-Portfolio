@@ -25,7 +25,7 @@ export default function Portfolio() {
     return (
         <section className="top">
             <div className="portfolio-page">
-                <h1>Portfolio Page</h1>
+                <h1 className="page-name">Portfolio Page</h1>
             </div>
             <div className="portfolio">
                 <div className="container">

@@ -6,7 +6,11 @@
 .about-page {
     display: flex;
     justify-content: center;
-    color: white;
+    color: green;
+}
+
+.page-name {
+    font-weight: bold;
 }
 
 .about-me {
@@ -26,14 +30,9 @@
     display: flex;
     text-align: center;
     flex-direction: column;
+    font-weight: bold;
     font-size: 30px;
     color: green;
-    filter: grayscale(15%) opacity(75%) hue-rotate(10deg) drop-shadow(0 0 0 transparent);
-    transition: all 250ms ease-out;
-}
-
-.hello:hover {
-    filter: grayscale(0%) opacity(100%) hue-rotate(0deg) drop-shadow(0 0 0 transparent);
 }
 
 .bio {

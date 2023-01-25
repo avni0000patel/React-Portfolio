@@ -1,25 +1,11 @@
 import React, { useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
 import { validateEmail } from '../../utils/helper';
+import './Contact.css';
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/2ffb6220-4aa0-11ed-8970-6943e4ac8982";
 
 export default function Contact() {
-    const styles = {
-        top: {
-            paddingTop: '60px',
-            paddingBottom: '60px',
-        },
-        title: {
-            color: 'white',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-        },
-        label: {
-            color: 'white'
-        },
-    }
 
     const [formInput, setFormInput] = useState({
         fullname: '',
@@ -77,11 +63,9 @@ export default function Contact() {
     };
 
     return (
-        <section style={styles.top}>
-            <div style={styles.title} className="contact-page">
-                <br />
-                <h1>Contact Page</h1>
-                <br />
+        <section className="top">
+            <div className="contact-page">
+                <h1 className="page-name">Contact Page</h1>
             </div>
             <div className="contact">
                 <div className="container">
@@ -95,7 +79,7 @@ export default function Contact() {
                                 target="_blank"
                             >
                                 <div className="form-group">
-                                    <label style={styles.label} htmlFor="fullname">Full Name</label>
+                                    <label className="label" htmlFor="fullname">Full Name</label>
                                     <input
                                         type="text"
                                         placeholder="Full Name"
@@ -108,7 +92,7 @@ export default function Contact() {
                                     />
                                 </div>
                                 <div className="form-group">
-                                    <label style={styles.label} htmlFor="email">Email</label>
+                                    <label className="label" htmlFor="email">Email</label>
                                     <input
                                         type="email"
                                         placeholder="Email"
@@ -122,7 +106,7 @@ export default function Contact() {
                                     />
                                 </div>
                                 <div className="form-group">
-                                    <label style={styles.label} htmlFor="message">Message</label>
+                                    <label className="label" htmlFor="message">Message</label>
                                     <textarea
                                         placeholder="Message"
                                         name="message"
@@ -140,8 +124,8 @@ export default function Contact() {
                                         <p>{errorMessage}</p>
                                     </Alert>
                                 )}
-                                <div>
-                                    <button type="submit" className="btn btn-primary">Submit</button>
+                                <div submit>
+                                    <button type="submit" className="submit-btn">Submit</button>
                                 </div>
                                 <br />
                             </form >

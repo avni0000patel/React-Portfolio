@@ -6,7 +6,11 @@
 .portfolio-page {
     display: flex;
     justify-content: center;
-    color: white;
+    color: green;
+}
+
+.page-name {
+    font-weight: bold;
 }
 
 .project-card {
@@ -23,6 +27,10 @@
 }
 
 .project-name {
+    color: green;
+}
+
+.description {
     color: green;
 }
 

@@ -1,0 +1,27 @@
+.top {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact-page {
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+.page-name {
+    font-weight: bold;
+}
+
+.label {
+    color: white;
+    font-weight: bold;
+}
+
+.submit-btn {
+    border-radius: 15%;
+    border: 3px solid #dee2e6;
+    padding: 0.50rem;
+    background-color: green;
+    color: white;
+}
