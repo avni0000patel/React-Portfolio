@@ -19,23 +19,10 @@ import SocialNetworkAPI from '../../assets/images/social-network-API.png';
 import BookSearchEngine from '../../assets/images/book-search-engine.png';
 import ReduxStore from '../../assets/images/redux-store.png';
 import AutismFY from '../../assets/images/autismfylogo.png';
-import background from '../../assets/images/background2.webp';
-
 import './Portfolio.css';
 
 export default function Portfolio() {
     const styles = {
-        top: {
-            paddingTop: '60px',
-            paddingBottom: '60px',
-        },
-        card: {
-            // backgroundColor: '#274C77',
-            backgroundImage: `url(${background})`,
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            border: '1px solid white'
-        },
         cardHeader: {
             backgroundColor: 'black',
         },
@@ -46,25 +33,17 @@ export default function Portfolio() {
             height: '300px',
             width: '300px',
         },
-        title: {
-            color: 'white',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-        },
     }
     return (
-        <section style={styles.top}>
-            <div style={styles.title} id="portfolio" className="portfolio-page">
-                <br />
+        <section className="top">
+            <div className="portfolio-page">
                 <h1>Portfolio Page</h1>
-                <br />
             </div>
             <div className="portfolio">
                 <div className="container">
                     <div className="row gy-3 justify-center justify-content-around">
                         {/* AutismFY */}
-                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="rig-match-me">
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -111,7 +90,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Rig Match Me */}
-                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="rig-match-me">
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -157,7 +136,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Redux Store */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="redux-store">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -203,7 +182,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Book Search Engine */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="book-search-engine">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -249,7 +228,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Social Network API */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="social-network-API">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -296,7 +275,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Regex Tutorial */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="regex-tutorial">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -343,7 +322,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Tech Blog */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="tech-blog">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -389,7 +368,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* E-Commerce Back End */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="e-commerce-back-end">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -436,7 +415,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Employee Tracker */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="employee-tracker">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -483,7 +462,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Note Taker */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="note-taker">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -527,7 +506,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Team Profile Generator */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="team-profile-generator">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -574,7 +553,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Professional README Generator */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="professional-readme-generator">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -621,7 +600,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Weather Dashboard */}
-                        < div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        < div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="weather-dashboard">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -667,7 +646,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Work Day Scheduler */}
-                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        <div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="work-day-scheduler">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -713,7 +692,7 @@ export default function Portfolio() {
                             </div >
                         </div >
                         {/* Code Quiz */}
-                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        <div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="code-quiz">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -759,7 +738,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Password Generator */}
-                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        <div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="password-generator">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">
@@ -805,7 +784,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                         {/* Code Refractor*/}
-                        <div style={styles.card} className="project card col-12 col-md-6 col-lg-4">
+                        <div className="project-card card col-12 col-md-6 col-lg-4">
                             <div className="code-refractor">
                                 <br />
                                 <div style={styles.cardHeader} className="container card-header text-center text-light border border-1 border-light">

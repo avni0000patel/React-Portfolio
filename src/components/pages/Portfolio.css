@@ -9,6 +9,24 @@
     border-color: none;
 }
 
+.top {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.portfolio-page {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.project-card {
+    background-image: url(/src/assets/images/background2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+}
+
 .nav-tabs {
     border-bottom: none;
     color: white;
