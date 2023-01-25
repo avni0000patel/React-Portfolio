@@ -9,6 +9,7 @@
 }
 
 .bio,
-.project-description {
+.project-description,
+.project-github {
   font-family: 'Raleway', sans-serif;
 }

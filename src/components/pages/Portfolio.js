@@ -53,17 +53,16 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
-                                            Description: In this project we have created an application that is designed to help parents and caregivers of younger Autistic children create routine To-Do Lists, log important information in a Notes tab, share and connect with other parents and caregivers by creating posts.
+                                        <p className="project-description">
+                                            Description: This project aims to empower parents and caregivers of young children with autism by providing a user-friendly and intuitive application. This application offers the ability to create personalized routine To-Do Lists, document important information in a dedicated Notes section, and fostering a supportive community through the ability to share and connect with other parents and caregivers through interactive posts. It is designed to streamline daily tasks and provide a sense of organization and structure for both parents and caregivers of children with autism.
                                             <br />
                                             <br />
-                                            Technologies: Apollo client, Axios, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Bootstrap, Bootstrap-icons, Concurrently, Connect-busboy, Cors,  Express, Framer-motion, Graphql, Jsonwebtoken, Jwt-decode, Material UI, Mongoose, Nodemon, Prettier, Randomcolor, Randomstring, React, React-bootstrap, React-dom, React-draggable, React-icons, React-redux, React-router-dom, React-scripts, Redux, UUID, Web-vitals
-
+                                            Technologies: Apollo client, Apollo-server-express, Axios, Bcrypt, Bootstrap, Bootstrap-icons, Concurrently, Connect-busboy, Cors, CSS, Express, Framer-motion, Graphql, HTML, JavaScript, Jest-dom testing library, Jsonwebtoken, Jwt-decode, Material UI, Mongoose, Nodemon, Prettier, Randomcolor, Randomstring, React, React-bootstrap, React-dom, React-draggable, React-icons, React-redux, React-router-dom, React-scripts, Redux, User-event testing library, UUID, Web-vitals
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/AutismFY">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -100,7 +99,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description: In this project we have created an application that provides a guided tour of instruments to help steer the user towards getting properly setup for the genre of music they are interested in playing.
                                             <br />
                                             <br />
@@ -109,7 +108,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Rig-Match-Me">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -146,7 +145,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description: In this project I refactored an e-commerce platform that uses React's Context API to use Redux.
                                             <br />
                                             <br />
@@ -155,7 +154,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Redux-Store">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -192,7 +191,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have taken a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server.
                                             <br />
                                             <br />
@@ -201,7 +200,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Book-Search-Engine">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -238,7 +237,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have built a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list.
                                             <br />
                                             <br />
@@ -247,7 +246,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Social-Network-API">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -285,7 +284,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have created a regex tutorial that writes about code.
                                             <br />
                                             <br />
@@ -294,7 +293,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://gist.github.com/avni0000patel/3ba423acbc4236b858409caa4486d6cb">
-                                            <p className="text-light">Click here to see the github gist for this project!</p>
+                                            <p className="project-github">Click here to see the github gist for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -332,7 +331,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have created a tech blog that is a CMS-style blog site similar to a Wordpress site.
                                             <br />
                                             <br />
@@ -341,7 +340,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Tech-Blog">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -378,7 +377,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have built the back end for an e-commerce site.
                                             <br />
                                             <br />
@@ -387,7 +386,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/E-commerce-Back-End">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -425,7 +424,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have created an application that allows you to view and manage the departments, roles, and employees in a company.
                                             <br />
                                             <br />
@@ -434,7 +433,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Employee-Tracker">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -472,7 +471,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have created a Note Taker application to create and store notes.
                                             <br />
                                             <br />
@@ -481,7 +480,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Note-Taker">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -518,7 +517,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have created a team profile generator that displays summaries for each person.
                                             <br />
                                             <br />
@@ -527,7 +526,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Team-Profile-Generator">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -565,7 +564,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have created an application using node that creates a professional README for a user's project based on the user's input.
                                             <br />
                                             <br />
@@ -574,7 +573,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Professional-README-Generator">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -612,7 +611,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have created a weather dashboard that uses the OpenWeather API to show the forecast for different cities.
                                             <br />
                                             <br />
@@ -621,7 +620,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Weather-Dashboard">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -658,7 +657,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have created a work day scheduler so I can manage my time effectively.
                                             <br />
                                             <br />
@@ -667,7 +666,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Work-Day-Scheduler">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -704,7 +703,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description:  In this project I have created a code quiz because coding assessments are an important part of the interview process for developers.
                                             <br />
                                             <br />
@@ -713,7 +712,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Code-Quiz">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -750,7 +749,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description: In this project I have created a password generator to improve security and protect secure data.
                                             <br />
                                             <br />
@@ -759,7 +758,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Password-Generator">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
@@ -796,7 +795,7 @@ export default function Portfolio() {
                                     className="mb-3"
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
-                                        <p className="project-description text-light">
+                                        <p className="project-description">
                                             Description: In this project code has been refactored to meet accessibility standards.
                                             <br />
                                             <br />
@@ -805,7 +804,7 @@ export default function Portfolio() {
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
                                         <a className="github" href="https://github.com/avni0000patel/Code-Refractor">
-                                            <p className="text-light">Click here to see the github repo for this project!</p>
+                                            <p className="project-github">Click here to see the github repo for this project!</p>
                                         </a>
                                     </Tab>
                                     <Tab eventKey="project" title="Project" label="Project">
