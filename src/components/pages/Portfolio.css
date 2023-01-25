@@ -18,26 +18,12 @@
 
 .project-card-header {
     background-color: black;
+    font-weight: bold;
+    font-size: 22px;
 }
 
-.nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
-    color: black;
-    border-color: none;
-}
-
-.nav-tabs .nav-link {
-    color: white;
-    border-color: none;
-}
-
-.nav-tabs {
-    border-bottom: none;
-    color: white;
-}
-
-.nav-tabs .nav-link:hover {
-    color: white;
+.project-name {
+    color: green;
 }
 
 .project {
@@ -57,5 +43,31 @@
 
 .project-description,
 .project-github {
+    color: white;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: black;
+    border-color: none;
+}
+
+.nav-tabs .nav-link {
+    color: white;
+    border-color: none;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    color: white;
+}
+
+.nav-tabs .nav-link:hover {
     color: white;
 }

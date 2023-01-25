@@ -54,10 +54,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description: This project aims to empower parents and caregivers of young children with autism by providing a user-friendly and intuitive application. This application offers the ability to create personalized routine To-Do Lists, document important information in a dedicated Notes section, and fostering a supportive community through the ability to share and connect with other parents and caregivers through interactive posts. It is designed to streamline daily tasks and provide a sense of organization and structure for both parents and caregivers of children with autism.
+                                            <span className="green">Description: </span>This project aims to empower parents and caregivers of young children with autism by providing a user-friendly and intuitive application. This application offers the ability to create personalized routine To-Do Lists, document important information in a dedicated Notes section, and fostering a supportive community through the ability to share and connect with other parents and caregivers through interactive posts. It is designed to streamline daily tasks and provide a sense of organization and structure for both parents and caregivers of children with autism.
                                             <br />
                                             <br />
-                                            Technologies: Apollo client, Apollo-server-express, Axios, Bcrypt, Bootstrap, Bootstrap-icons, Concurrently, Connect-busboy, Cors, CSS, Express, Framer-motion, Graphql, HTML, JavaScript, Jest-dom testing library, Jsonwebtoken, Jwt-decode, Material UI, Mongoose, Nodemon, Prettier, Randomcolor, Randomstring, React, React-bootstrap, React-dom, React-draggable, React-icons, React-redux, React-router-dom, React-scripts, Redux, User-event testing library, UUID, Web-vitals
+                                            <span className="green">Technologies: </span>Apollo client, Apollo-server-express, Axios, Bcrypt, Bootstrap, Bootstrap-icons, Concurrently, Connect-busboy, Cors, CSS, Express, Framer-motion, Graphql, HTML, JavaScript, Jest-dom testing library, Jsonwebtoken, Jwt-decode, Material UI, Mongoose, Nodemon, Prettier, Randomcolor, Randomstring, React, React-bootstrap, React-dom, React-draggable, React-icons, React-redux, React-router-dom, React-scripts, Redux, User-event testing library, UUID, Web-vitals
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -100,10 +100,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description: In this project we have created an application that provides a guided tour of instruments to help steer the user towards getting properly setup for the genre of music they are interested in playing.
+                                            <span className="green">Description: </span>In this project we have created an application that provides a guided tour of instruments to help steer the user towards getting properly setup for the genre of music they are interested in playing.
                                             <br />
                                             <br />
-                                            Technologies: HTML, CSS, Bootstrap, JavaScript, Node JS, Express, Express-handlebars, MySQL, Sequelize, Dotenv, Bcrypt, Connect-session-sequelize, Nodemailer
+                                            <span className="green">Technologies: </span>HTML, CSS, Bootstrap, JavaScript, Node JS, Express, Express-handlebars, MySQL, Sequelize, Dotenv, Bcrypt, Connect-session-sequelize, Nodemailer
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -146,10 +146,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description: In this project I refactored an e-commerce platform that uses React's Context API to use Redux.
+                                            <span className="green">Description: </span>In this project I refactored an e-commerce platform that uses React's Context API to use Redux.
                                             <br />
                                             <br />
-                                            Technologies:  Apollo client, Redux toolkit, Stripe, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Concurrently, Express, Graphql, Jsonwebtoken, Jwt-decode, Mongoose, Nodemon, React, React-bootstrap, React-dom, React-redux, React-router-dom, React-scripts
+                                            <span className="green">Technologies: </span>Apollo client, Redux toolkit, Stripe, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Concurrently, Express, Graphql, Jsonwebtoken, Jwt-decode, Mongoose, Nodemon, React, React-bootstrap, React-dom, React-redux, React-router-dom, React-scripts
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -192,10 +192,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have taken a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server.
+                                            <span className="green">Description: </span>In this project I have taken a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server.
                                             <br />
                                             <br />
-                                            Technologies:  Apollo client, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Bootstrap, Concurrently, Express, Graphql, Jsonwebtoken, Jwt-decode, Mongoose, Nodemon, React, React-bootstrap, React-dom, React-router-dom, React-scripts
+                                            <span className="green">Technologies: </span>Apollo client, Jest-dom testing library, React testing library, User-event testing library, Apollo-server-express, Bcrypt, Bootstrap, Concurrently, Express, Graphql, Jsonwebtoken, Jwt-decode, Mongoose, Nodemon, React, React-bootstrap, React-dom, React-router-dom, React-scripts
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -238,10 +238,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have built a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list.
+                                            <span className="green">Description: </span>In this project I have built a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list.
                                             <br />
                                             <br />
-                                            Technologies:  Javascript, Node JS, Express, Moment, Nodemon
+                                            <span className="green">Technologies: </span>Javascript, Node JS, Express, Moment, Nodemon
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -285,10 +285,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have created a regex tutorial that writes about code.
+                                            <span className="green">Description: </span>In this project I have created a regex tutorial that writes about code.
                                             <br />
                                             <br />
-                                            Technologies:  GitHub Gist
+                                            <span className="green">Technologies: </span>GitHub Gist
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -332,10 +332,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have created a tech blog that is a CMS-style blog site similar to a Wordpress site.
+                                            <span className="green">Description: </span>In this project I have created a tech blog that is a CMS-style blog site similar to a Wordpress site.
                                             <br />
                                             <br />
-                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, Node JS, Express, Express-handlebars, MySQL, Sequelize, Dotenv, Bycrypt, Connect-session-sequelize
+                                            <span className="green">Technologies: </span>HTML, CSS, Bootstrap, JavaScript, Node JS, Express, Express-handlebars, MySQL, Sequelize, Dotenv, Bycrypt, Connect-session-sequelize
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -378,10 +378,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have built the back end for an e-commerce site.
+                                            <span className="green">Description: </span>In this project I have built the back end for an e-commerce site.
                                             <br />
                                             <br />
-                                            Technologies:  JavaScript, Node JS, Express, MySQL, Sequelize, Dotenv
+                                            <span className="green">Technologies: </span>JavaScript, Node JS, Express, MySQL, Sequelize, Dotenv
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -425,10 +425,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have created an application that allows you to view and manage the departments, roles, and employees in a company.
+                                            <span className="green">Description: </span>In this project I have created an application that allows you to view and manage the departments, roles, and employees in a company.
                                             <br />
                                             <br />
-                                            Technologies:  JavaScript, Node JS, Inquirer, Console Table, MySQL
+                                            <span className="green">Technologies: </span>JavaScript, Node JS, Inquirer, Console Table, MySQL
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -472,10 +472,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have created a Note Taker application to create and store notes.
+                                            <span className="green">Description: </span>In this project I have created a Note Taker application to create and store notes.
                                             <br />
                                             <br />
-                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, Node JS, Inquirer, Express, UUID
+                                            <span className="green">Technologies: </span>HTML, CSS, Bootstrap, JavaScript, Node JS, Inquirer, Express, UUID
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -518,10 +518,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have created a team profile generator that displays summaries for each person.
+                                            <span className="green">Description: </span>In this project I have created a team profile generator that displays summaries for each person.
                                             <br />
                                             <br />
-                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, Node JS, Inquirer, Jest
+                                            <span className="green">Technologies: </span>HTML, CSS, Bootstrap, JavaScript, Node JS, Inquirer, Jest
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -565,10 +565,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have created an application using node that creates a professional README for a user's project based on the user's input.
+                                            <span className="green">Description: </span>In this project I have created an application using node that creates a professional README for a user's project based on the user's input.
                                             <br />
                                             <br />
-                                            Technologies:  JavaScript, Node JS, Inquirer
+                                            <span className="green">Technologies: </span>JavaScript, Node JS, Inquirer
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -612,10 +612,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have created a weather dashboard that uses the OpenWeather API to show the forecast for different cities.
+                                            <span className="green">Description: </span>  In this project I have created a weather dashboard that uses the OpenWeather API to show the forecast for different cities.
                                             <br />
                                             <br />
-                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, jQuery, jQuery UI, OpenWeatherMap API
+                                            <span className="green">Technologies: </span>HTML, CSS, Bootstrap, JavaScript, jQuery, jQuery UI, OpenWeatherMap API
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -658,10 +658,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have created a work day scheduler so I can manage my time effectively.
+                                            <span className="green">Description: </span>In this project I have created a work day scheduler so I can manage my time effectively.
                                             <br />
                                             <br />
-                                            Technologies:  HTML, CSS, Bootstrap, JavaScript, jQuery, jQuery UI
+                                            <span className="green">Technologies: </span>HTML, CSS, Bootstrap, JavaScript, jQuery, jQuery UI
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -704,10 +704,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description:  In this project I have created a code quiz because coding assessments are an important part of the interview process for developers.
+                                            <span className="green">Description: </span>In this project I have created a code quiz because coding assessments are an important part of the interview process for developers.
                                             <br />
                                             <br />
-                                            Technologies:  HTML, CSS, JavaScript
+                                            <span className="green">Technologies: </span>HTML, CSS, JavaScript
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -750,10 +750,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description: In this project I have created a password generator to improve security and protect secure data.
+                                            <span className="green">Description: </span>In this project I have created a password generator to improve security and protect secure data.
                                             <br />
                                             <br />
-                                            Technologies: HTML, CSS, JavaScript
+                                            <span className="green">Technologies: </span>HTML, CSS, JavaScript
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
@@ -796,10 +796,10 @@ export default function Portfolio() {
                                 >
                                     <Tab eventKey="description" title="Description" label="Description">
                                         <p className="project-description">
-                                            Description: In this project code has been refactored to meet accessibility standards.
+                                            <span className="green">Description: </span>In this project code has been refactored to meet accessibility standards.
                                             <br />
                                             <br />
-                                            Technologies: HTML, CSS
+                                            <span className="green">Technologies: </span>HTML, CSS
                                         </p>
                                     </Tab>
                                     <Tab eventKey="github" title="Github" label="GitHub">
