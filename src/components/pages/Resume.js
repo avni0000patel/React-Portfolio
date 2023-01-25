@@ -20,55 +20,49 @@ export default function Resume() {
             <div className="resume-page">
                 <h1 className="page-name">Resume Page</h1>
             </div>
-            <div className='resume-card card'>
-                <div className='row card-body'>
-                    <div className='col-sm-12'>
-                        <h3 className='resume-card-title'>
-                            Resume:
-                        </h3>
-                        <hr className="text-light"></hr>
+            <div className='resume-card row card-body'>
+                <div className='col-sm-12'>
+                    <h3 className='resume-card-title'>
+                        Resume:
+                    </h3>
+                    <hr className="text-light"></hr>
 
-                        <div className='card-description row'>
-                            <a className="card-description-text" href={PDF}>Click here to download resume!</a>
-                        </div>
+                    <div className='card-description row'>
+                        <a className="card-description-text" href={PDF}>Click here to download resume!</a>
                     </div>
                 </div>
             </div>
-            <div className='resume-card card'>
-                <div className='row card-body'>
-                    <div className='col-sm-12'>
-                        <h3 className='resume-card-title'>
-                            Front-End Proficiencies:
-                        </h3>
-                        <hr className="text-light"></hr>
+            <div className='resume-card row card-body'>
+                <div className='col-sm-12'>
+                    <h3 className='resume-card-title'>
+                        Front-End Proficiencies:
+                    </h3>
+                    <hr className="text-light"></hr>
 
-                        <div className='icons'>
-                            <IoLogoHtml5 className='icon ms-3' />
-                            <IoLogoCss3 className='icon ms-3' />
-                            <IoLogoJavascript className='icon ms-3' />
-                            <DiBootstrap className='icon ms-3' />
-                            <DiJqueryLogo className='icon ms-3' />
-                        </div>
+                    <div className='icons'>
+                        <IoLogoHtml5 className='icon ms-3' />
+                        <IoLogoCss3 className='icon ms-3' />
+                        <IoLogoJavascript className='icon ms-3' />
+                        <DiBootstrap className='icon ms-3' />
+                        <DiJqueryLogo className='icon ms-3' />
                     </div>
                 </div>
             </div>
-            <div className='resume-card card'>
-                <div className='row card-body'>
-                    <div className='col-sm-12'>
-                        <h3 className='resume-card-title'>
-                            Back-End Proficiencies:
-                        </h3>
-                        <hr className="text-light"></hr>
+            <div className='resume-card row card-body'>
+                <div className='col-sm-12'>
+                    <h3 className='resume-card-title'>
+                        Back-End Proficiencies:
+                    </h3>
+                    <hr className="text-light"></hr>
 
-                        <div className='icons'>
-                            <AiFillApi className='icon ms-3' />
-                            <IoLogoNodejs className='icon ms-3' />
-                            <SiExpress className='icon ms-3' />
-                            <SiMysql className='icon ms-3' />
-                            <SiSequelize className='icon ms-3' />
-                            <SiMongodb className='icon ms-3' />
-                            <SiGraphql className='icon ms-3' />
-                        </div>
+                    <div className='icons'>
+                        <AiFillApi className='icon ms-3' />
+                        <IoLogoNodejs className='icon ms-3' />
+                        <SiExpress className='icon ms-3' />
+                        <SiMysql className='icon ms-3' />
+                        <SiSequelize className='icon ms-3' />
+                        <SiMongodb className='icon ms-3' />
+                        <SiGraphql className='icon ms-3' />
                     </div>
                 </div>
             </div>
