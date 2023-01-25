@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { Tabs, Tab } from 'react-bootstrap-tabs';
-
 import RigMatchMe from '../../assets/images/rig-match-me-screenshot.png';
 import Horiseon from '../../assets/images/challenge01.png'
 import PasswordGenerator from '../../assets/images/password-generator.png';
@@ -34,7 +32,7 @@ export default function Portfolio() {
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             AutismFY
@@ -78,7 +76,7 @@ export default function Portfolio() {
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Rig Match Me
@@ -122,7 +120,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Redux Store
@@ -166,7 +164,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Book Search Engine
@@ -210,7 +208,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Social Network API
@@ -255,7 +253,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Regex Tutorial
@@ -300,7 +298,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Tech Blog
@@ -344,7 +342,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             E-commerce Back End
@@ -389,7 +387,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Employee Tracker
@@ -434,7 +432,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Note Taker
@@ -478,7 +476,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Team Profile Generator
@@ -523,7 +521,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Professional README Generator
@@ -568,7 +566,7 @@ export default function Portfolio() {
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Weather Dashboard
@@ -612,7 +610,7 @@ export default function Portfolio() {
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Work Day Scheduler
@@ -656,7 +654,7 @@ export default function Portfolio() {
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Code Quiz
@@ -700,7 +698,7 @@ export default function Portfolio() {
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Password Generator
@@ -744,7 +742,7 @@ export default function Portfolio() {
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
                             <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row align-items-center h-100">
+                                <div className="row h-100">
                                     <div className="mx-auto">
                                         <div className="project-name">
                                             Code Refractor
