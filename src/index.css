@@ -4,7 +4,8 @@
 .contact-page,
 .resume-page,
 .hello,
-.project-name {
+.project-name,
+.resume-card-title {
   font-family: 'Dancing Script', cursive;
 }
 
