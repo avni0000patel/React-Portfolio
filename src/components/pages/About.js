@@ -7,30 +7,45 @@ import './About.css';
 export default function About() {
     const styles = {
         top: {
-            paddingTop: '40px',
+            paddingTop: '60px',
             paddingBottom: '60px',
+        },
+        title: {
+            color: 'white',
+            display: 'flex',
+            justifyContent: 'center',
         },
         aboutMe: {
             textAlign: 'center',
         },
         me: {
             height: '200px',
+            borderRadius: '50%',
+            padding: '0.25rem',
+            backgroundColor: '#fff',
+            border: '1px solid #dee2e6',
+            maxWidth: '100%',
         },
         hello: {
-            fontSize: '30px',
-        },
-        pop: {
-            color: 'white',
-        },
-        green: {
             color: 'green',
-        }
+            fontSize: '30px',
+            display: 'flex',
+            textAlign: 'center',
+            flexDirection: 'column',
+        },
+        bio: {
+            color: 'white',
+            display: 'flex',
+            fontSize: '18px',
+            textAlign: 'center',
+            margin: '15px',
+        },
     };
     return (
         <section style={styles.top}>
-            <div className="about-me">
+            <div className="about-page" style={styles.title}>
                 <br />
-                <h1 style={styles.pop} className="text-center">About Page</h1>
+                <h1>About Page</h1>
                 <br />
             </div>
             <div>
@@ -39,22 +54,16 @@ export default function About() {
                         alt="Avni Patel" />
                 </div>
                 <br />
-                <div style={styles.hello} className="text-center">
-                    Hello, my name is <span className="green" style={styles.green}>Avni Patel</span>
+                <div style={styles.hello} className="hello">
+                    Hello, my name is Avni Patel
                     <br />
-                    I'm a <span className="green" style={styles.green}>Full Stack Developer</span>
+                    I'm a Software Engineer
                 </div>
-            </div>
+            </div >
             <br />
-            <div className="bio">
-                <div className="container">
-                    <div className="row justify-content-around">
-                        <div className="col-12">
-                            <p>
-                                Welcome to my story as a full stack web developer! I have a background in finance and mathematics, as well as training from University of Pennsylvania in full stack web development. I have experience building projects using JavaScript, Node, SQL, MongoDB, React, and other technologies.
-                            </p>
-                        </div>
-                    </div>
+            <div>
+                <div style={styles.bio} className="bio">
+                    Welcome to my story Software Engineer! I have a background in finance and mathematics, as well as training from University of Pennsylvania in full stack web development. I have experience building projects using JavaScript, Node, SQL, MongoDB, React, and other technologies.
                 </div>
             </div>
         </section >

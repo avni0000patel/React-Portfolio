@@ -7,12 +7,18 @@ const FORM_ENDPOINT = "https://public.herotofu.com/v1/2ffb6220-4aa0-11ed-8970-69
 export default function Contact() {
     const styles = {
         top: {
-            paddingTop: '40px',
+            paddingTop: '60px',
             paddingBottom: '60px',
         },
-        pop: {
+        title: {
             color: 'white',
-        }
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+        },
+        label: {
+            color: 'white'
+        },
     }
 
     const [formInput, setFormInput] = useState({
@@ -72,9 +78,9 @@ export default function Contact() {
 
     return (
         <section style={styles.top}>
-            <div className="portfolio">
+            <div style={styles.title} className="portfolio">
                 <br />
-                <h1 style={styles.pop} className="text-center">Contact Page</h1>
+                <h1>Contact Page</h1>
                 <br />
             </div>
             <div className="contact">
@@ -89,7 +95,7 @@ export default function Contact() {
                                 target="_blank"
                             >
                                 <div className="form-group">
-                                    <label htmlFor="fullname">Full Name</label>
+                                    <label style={styles.label} htmlFor="fullname">Full Name</label>
                                     <input
                                         type="text"
                                         placeholder="Full Name"
@@ -102,7 +108,7 @@ export default function Contact() {
                                     />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="email">Email</label>
+                                    <label style={styles.label} htmlFor="email">Email</label>
                                     <input
                                         type="email"
                                         placeholder="Email"
@@ -116,7 +122,7 @@ export default function Contact() {
                                     />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="message">Message</label>
+                                    <label style={styles.label} htmlFor="message">Message</label>
                                     <textarea
                                         placeholder="Message"
                                         name="message"

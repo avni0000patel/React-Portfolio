@@ -18,26 +18,42 @@ import './Resume.css';
 export default function Resume() {
     const styles = {
         top: {
-            paddingTop: '40px',
+            paddingTop: '60px',
             paddingBottom: '60px',
         },
-        pop: {
+        title: {
             color: 'white',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
         },
         card: {
-            // backgroundColor: '#274C77',
             backgroundImage: `url(${background})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             border: '1px solid white',
-            marginLeft: '20px',
-            marginRight: '20px',
+            margin: '25px 25px',
+            borderRadius: '15px',
+        },
+        cardTitle: {
+            color: 'white',
+            margin: '5px',
+            fontSize: '30px',
+        },
+        cardDescription: {
+            color: 'white',
+            margin: '5px',
+        },
+        cardDescriptionText: {
+            color: 'white',
+            fontSize: '18px',
+            textDecoration: 'none',
         },
         icons: {
             color: 'white',
             height: '60px',
             width: '60px',
-            marginTop: '5px',
+            margin: '5px',
         },
         skill: {
             display: 'flex',
@@ -47,71 +63,59 @@ export default function Resume() {
     }
     return (
         <section style={styles.top}>
-            <div className="resume">
+            <div style={styles.title} className="resume">
                 <br />
-                <h1 style={styles.pop} className="text-center">Resume Page</h1>
+                <h1>Resume Page</h1>
                 <br />
             </div>
-            <div className='row mt-3'>
-                <div className='col'>
-                    <div className='skill card' style={styles.card}>
-                        <div className='row card-body'>
-                            <div className='col-sm-12'>
-                                <h3 className='card-title'>
-                                    Resume:
-                                </h3>
-                                <hr></hr>
+            <div className='skill card' style={styles.card}>
+                <div className='row card-body'>
+                    <div className='col-sm-12'>
+                        <h3 style={styles.cardTitle} className='card-title'>
+                            Resume:
+                        </h3>
+                        <hr className="text-light"></hr>
 
-                                <div className='row'>
-                                    <a className="text-light description" style={styles.description} href={PDF}>Click here to download resume!</a>
-                                </div>
-                            </div>
+                        <div style={styles.cardDescription} className='row'>
+                            <a style={styles.cardDescriptionText} className="cardDescriptionText" href={PDF}>Click here to download resume!</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='row mt-3'>
-                <div className='col'>
-                    <div className='skill card' style={styles.card}>
-                        <div className='row card-body'>
-                            <div className='col-sm-12'>
-                                <h3 className='card-title'>
-                                    Front-End Proficiencies:
-                                </h3>
-                                <hr></hr>
+            <div className='skill card' style={styles.card}>
+                <div className='row card-body'>
+                    <div className='col-sm-12'>
+                        <h3 style={styles.cardTitle} className='card-title'>
+                            Front-End Proficiencies:
+                        </h3>
+                        <hr className="text-light"></hr>
 
-                                <div className='row'>
-                                    <IoLogoHtml5 style={styles.icons} className='ms-3' />
-                                    <IoLogoCss3 style={styles.icons} className='ms-3' />
-                                    <IoLogoJavascript style={styles.icons} className='ms-3' />
-                                    <DiBootstrap style={styles.icons} className='ms-3' />
-                                    <DiJqueryLogo style={styles.icons} className='ms-3' />
-                                </div>
-                            </div>
+                        <div className='row'>
+                            <IoLogoHtml5 style={styles.icons} className='ms-3' />
+                            <IoLogoCss3 style={styles.icons} className='ms-3' />
+                            <IoLogoJavascript style={styles.icons} className='ms-3' />
+                            <DiBootstrap style={styles.icons} className='ms-3' />
+                            <DiJqueryLogo style={styles.icons} className='ms-3' />
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='row mt-3'>
-                <div className='col'>
-                    <div className='skill card' style={styles.card}>
-                        <div className='row card-body'>
-                            <div className='col-sm-12'>
-                                <h3 className='card-title'>
-                                    Back-End Proficiencies:
-                                </h3>
-                                <hr></hr>
+            <div className='skill card' style={styles.card}>
+                <div className='row card-body'>
+                    <div className='col-sm-12'>
+                        <h3 style={styles.cardTitle} className='card-title'>
+                            Back-End Proficiencies:
+                        </h3>
+                        <hr className="text-light"></hr>
 
-                                <div className='row'>
-                                    <AiFillApi style={styles.icons} className='ms-3' />
-                                    <IoLogoNodejs style={styles.icons} className='ms-3' />
-                                    <SiExpress style={styles.icons} className='ms-3' />
-                                    <SiMysql style={styles.icons} className='ms-3' />
-                                    <SiSequelize style={styles.icons} className='ms-3' />
-                                    <SiMongodb style={styles.icons} className='ms-3' />
-                                    <SiGraphql style={styles.icons} className='ms-3' />
-                                </div>
-                            </div>
+                        <div className='row'>
+                            <AiFillApi style={styles.icons} className='ms-3' />
+                            <IoLogoNodejs style={styles.icons} className='ms-3' />
+                            <SiExpress style={styles.icons} className='ms-3' />
+                            <SiMysql style={styles.icons} className='ms-3' />
+                            <SiSequelize style={styles.icons} className='ms-3' />
+                            <SiMongodb style={styles.icons} className='ms-3' />
+                            <SiGraphql style={styles.icons} className='ms-3' />
                         </div>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ import './Portfolio.css';
 export default function Portfolio() {
     const styles = {
         top: {
-            paddingTop: '40px',
+            paddingTop: '60px',
             paddingBottom: '60px',
         },
         card: {
@@ -46,15 +46,18 @@ export default function Portfolio() {
             height: '300px',
             width: '300px',
         },
-        pop: {
-            color: '#white',
+        title: {
+            color: 'white',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
         },
     }
     return (
         <section style={styles.top}>
-            <div id="portfolio" className="portfolio">
+            <div style={styles.title} id="portfolio" className="portfolio">
                 <br />
-                <h1 style={styles.pop} className="text-center">Portfolio Page</h1>
+                <h1>Portfolio Page</h1>
                 <br />
             </div>
             <div className="portfolio">
