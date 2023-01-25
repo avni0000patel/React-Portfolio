@@ -42,12 +42,12 @@ export default function Resume() {
                         </h3>
                         <hr className="text-light"></hr>
 
-                        <div className='row'>
-                            <IoLogoHtml5 className='icons ms-3' />
-                            <IoLogoCss3 className='icons ms-3' />
-                            <IoLogoJavascript className='icons ms-3' />
-                            <DiBootstrap className='icons ms-3' />
-                            <DiJqueryLogo className='icons ms-3' />
+                        <div className='icons'>
+                            <IoLogoHtml5 className='icon ms-3' />
+                            <IoLogoCss3 className='icon ms-3' />
+                            <IoLogoJavascript className='icon ms-3' />
+                            <DiBootstrap className='icon ms-3' />
+                            <DiJqueryLogo className='icon ms-3' />
                         </div>
                     </div>
                 </div>
@@ -60,14 +60,14 @@ export default function Resume() {
                         </h3>
                         <hr className="text-light"></hr>
 
-                        <div className='row'>
-                            <AiFillApi className='icons ms-3' />
-                            <IoLogoNodejs className='icons ms-3' />
-                            <SiExpress className='icons ms-3' />
-                            <SiMysql className='icons ms-3' />
-                            <SiSequelize className='icons ms-3' />
-                            <SiMongodb className='icons ms-3' />
-                            <SiGraphql className='icons ms-3' />
+                        <div className='icons'>
+                            <AiFillApi className='icon ms-3' />
+                            <IoLogoNodejs className='icon ms-3' />
+                            <SiExpress className='icon ms-3' />
+                            <SiMysql className='icon ms-3' />
+                            <SiSequelize className='icon ms-3' />
+                            <SiMongodb className='icon ms-3' />
+                            <SiGraphql className='icon ms-3' />
                         </div>
                     </div>
                 </div>
