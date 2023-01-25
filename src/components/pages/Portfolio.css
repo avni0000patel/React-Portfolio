@@ -1,14 +1,3 @@
-.nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
-    color: black;
-    border-color: none;
-}
-
-.nav-tabs .nav-link {
-    color: white;
-    border-color: none;
-}
-
 .top {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -27,6 +16,21 @@
     border: 1px solid white;
 }
 
+.project-card-header {
+    background-color: black;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: black;
+    border-color: none;
+}
+
+.nav-tabs .nav-link {
+    color: white;
+    border-color: none;
+}
+
 .nav-tabs {
     border-bottom: none;
     color: white;
@@ -37,10 +41,16 @@
 }
 
 .project {
+    text-align: center;
     filter: grayscale(15%) opacity(75%) hue-rotate(10deg) drop-shadow(0 0 0 transparent);
     transition: all 250ms ease-out;
 }
 
 .project:hover {
     filter: grayscale(0%) opacity(100%) hue-rotate(0deg) drop-shadow(0 0 0 transparent);
+}
+
+.project-img {
+    height: 300px;
+    width: 300px;
 }
