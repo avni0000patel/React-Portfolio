@@ -31,10 +31,8 @@ export default function Portfolio() {
                         {/* AutismFY */}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    AutismFY
-                                </div>
+                            <div className="project-name">
+                                AutismFY
                             </div>
                             <br />
                             <Tabs
@@ -69,10 +67,8 @@ export default function Portfolio() {
                         {/* Rig Match Me */}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Rig Match Me
-                                </div>
+                            <div className="project-name">
+                                Rig Match Me
                             </div>
                             <br />
                             <Tabs
@@ -107,10 +103,8 @@ export default function Portfolio() {
                         {/* Redux Store */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Redux Store
-                                </div>
+                            <div className="project-name">
+                                Redux Store
                             </div>
                             <br />
                             <Tabs
@@ -145,10 +139,8 @@ export default function Portfolio() {
                         {/* Book Search Engine */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Book Search Engine
-                                </div>
+                            <div className="project-name">
+                                Book Search Engine
                             </div>
                             <br />
                             <Tabs
@@ -183,10 +175,8 @@ export default function Portfolio() {
                         {/* Social Network API */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Social Network API
-                                </div>
+                            <div className="project-name">
+                                Social Network API
                             </div>
                             <br />
                             <Tabs
@@ -222,10 +212,8 @@ export default function Portfolio() {
                         {/* Regex Tutorial */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Regex Tutorial
-                                </div>
+                            <div className="project-name">
+                                Regex Tutorial
                             </div>
                             <br />
                             <Tabs
@@ -261,10 +249,8 @@ export default function Portfolio() {
                         {/* Tech Blog */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Tech Blog
-                                </div>
+                            <div className="project-name">
+                                Tech Blog
                             </div>
                             <br />
                             <Tabs
@@ -299,10 +285,8 @@ export default function Portfolio() {
                         {/* E-Commerce Back End */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    E-commerce Back End
-                                </div>
+                            <div className="project-name">
+                                E-commerce Back End
                             </div>
                             <br />
                             <Tabs
@@ -338,10 +322,8 @@ export default function Portfolio() {
                         {/* Employee Tracker */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Employee Tracker
-                                </div>
+                            <div className="project-name">
+                                Employee Tracker
                             </div>
                             <br />
                             <Tabs
@@ -377,14 +359,10 @@ export default function Portfolio() {
                         {/* Note Taker */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Note Taker
-                                </div>
+                            <div className="project-name">
+                                Note Taker
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -417,10 +395,8 @@ export default function Portfolio() {
                         {/* Team Profile Generator */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Team Profile Generator
-                                </div>
+                            <div className="project-name">
+                                Team Profile Generator
                             </div>
                             <br />
                             <Tabs
@@ -456,10 +432,8 @@ export default function Portfolio() {
                         {/* Professional README Generator */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Professional README Generator
-                                </div>
+                            <div className="project-name">
+                                Professional README Generator
                             </div>
                             <br />
                             <Tabs
@@ -495,10 +469,8 @@ export default function Portfolio() {
                         {/* Weather Dashboard */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Weather Dashboard
-                                </div>
+                            <div className="project-name">
+                                Weather Dashboard
                             </div>
                             <br />
                             <Tabs
@@ -533,10 +505,8 @@ export default function Portfolio() {
                         {/* Work Day Scheduler */}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Work Day Scheduler
-                                </div>
+                            <div className="project-name">
+                                Work Day Scheduler
                             </div>
                             <br />
                             <Tabs
@@ -571,10 +541,8 @@ export default function Portfolio() {
                         {/* Code Quiz */}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Code Quiz
-                                </div>
+                            <div className="project-name">
+                                Code Quiz
                             </div>
                             <br />
                             <Tabs
@@ -609,10 +577,8 @@ export default function Portfolio() {
                         {/* Password Generator */}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Password Generator
-                                </div>
+                            <div className="project-name">
+                                Password Generator
                             </div>
                             <br />
                             <Tabs
@@ -647,10 +613,8 @@ export default function Portfolio() {
                         {/* Code Refractor*/}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="project-card-header">
-                                <div className="project-name">
-                                    Code Refractor
-                                </div>
+                            <div className="project-name">
+                                Code Refractor
                             </div>
                             <br />
                             <Tabs
