@@ -29,7 +29,7 @@ export default function Portfolio() {
                 <div className="container">
                     <div className="projects row">
                         {/* AutismFY */}
-                        <div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        <div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 AutismFY
@@ -65,7 +65,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div>
                         {/* Rig Match Me */}
-                        <div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        <div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Rig Match Me
@@ -101,7 +101,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div>
                         {/* Redux Store */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Redux Store
@@ -137,7 +137,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Book Search Engine */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Book Search Engine
@@ -173,7 +173,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Social Network API */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Social Network API
@@ -210,7 +210,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Regex Tutorial */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Regex Tutorial
@@ -247,7 +247,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Tech Blog */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Tech Blog
@@ -283,7 +283,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* E-Commerce Back End */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 E-commerce Back End
@@ -320,7 +320,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Employee Tracker */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Employee Tracker
@@ -357,7 +357,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Note Taker */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Note Taker
@@ -393,7 +393,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Team Profile Generator */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Team Profile Generator
@@ -430,7 +430,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Professional README Generator */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Professional README Generator
@@ -467,7 +467,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Weather Dashboard */}
-                        < div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        < div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Weather Dashboard
@@ -503,7 +503,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Work Day Scheduler */}
-                        <div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        <div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Work Day Scheduler
@@ -539,7 +539,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div >
                         {/* Code Quiz */}
-                        <div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        <div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Code Quiz
@@ -575,7 +575,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div>
                         {/* Password Generator */}
-                        <div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        <div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Password Generator
@@ -611,7 +611,7 @@ export default function Portfolio() {
                             </Tabs>
                         </div>
                         {/* Code Refractor*/}
-                        <div className="project-card card-body col-12 col-md-6 col-lg-4">
+                        <div className="project-card card-body col-12 col-md-4 col-lg-3">
                             <br />
                             <div className="project-name">
                                 Code Refractor
