@@ -61,6 +61,7 @@
 .project-description,
 .project-github {
     color: white;
+    margin: 10px;
 }
 
 .green {
