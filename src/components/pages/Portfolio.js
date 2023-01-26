@@ -27,22 +27,16 @@ export default function Portfolio() {
             </div>
             <div className="portfolio">
                 <div className="container">
-                    <div className="row gy-3 justify-center justify-content-around">
+                    <div className="projects row">
                         {/* AutismFY */}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            AutismFY
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    AutismFY
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -75,18 +69,12 @@ export default function Portfolio() {
                         {/* Rig Match Me */}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Rig Match Me
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Rig Match Me
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -119,18 +107,12 @@ export default function Portfolio() {
                         {/* Redux Store */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Redux Store
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Redux Store
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -163,18 +145,12 @@ export default function Portfolio() {
                         {/* Book Search Engine */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Book Search Engine
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Book Search Engine
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -207,18 +183,12 @@ export default function Portfolio() {
                         {/* Social Network API */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Social Network API
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Social Network API
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -252,18 +222,12 @@ export default function Portfolio() {
                         {/* Regex Tutorial */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Regex Tutorial
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Regex Tutorial
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -297,18 +261,12 @@ export default function Portfolio() {
                         {/* Tech Blog */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Tech Blog
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Tech Blog
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -341,18 +299,12 @@ export default function Portfolio() {
                         {/* E-Commerce Back End */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            E-commerce Back End
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    E-commerce Back End
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -386,18 +338,12 @@ export default function Portfolio() {
                         {/* Employee Tracker */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Employee Tracker
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Employee Tracker
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -431,13 +377,9 @@ export default function Portfolio() {
                         {/* Note Taker */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Note Taker
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Note Taker
                                 </div>
                             </div>
 
@@ -475,18 +417,12 @@ export default function Portfolio() {
                         {/* Team Profile Generator */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Team Profile Generator
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Team Profile Generator
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -520,18 +456,12 @@ export default function Portfolio() {
                         {/* Professional README Generator */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Professional README Generator
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Professional README Generator
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -565,18 +495,12 @@ export default function Portfolio() {
                         {/* Weather Dashboard */}
                         < div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Weather Dashboard
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Weather Dashboard
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -609,18 +533,12 @@ export default function Portfolio() {
                         {/* Work Day Scheduler */}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Work Day Scheduler
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Work Day Scheduler
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -653,18 +571,12 @@ export default function Portfolio() {
                         {/* Code Quiz */}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Code Quiz
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Code Quiz
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -697,18 +609,12 @@ export default function Portfolio() {
                         {/* Password Generator */}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Password Generator
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Password Generator
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}
@@ -741,18 +647,12 @@ export default function Portfolio() {
                         {/* Code Refractor*/}
                         <div className="project-card card col-12 col-md-6 col-lg-4">
                             <br />
-                            <div className="container project-card-header text-center text-light border border-1 border-light">
-                                <div className="row h-100">
-                                    <div className="mx-auto">
-                                        <div className="project-name">
-                                            Code Refractor
-                                        </div>
-                                    </div>
+                            <div className="project-card-header">
+                                <div className="project-name">
+                                    Code Refractor
                                 </div>
                             </div>
-
                             <br />
-
                             <Tabs
                                 defaultActiveKey="description"
                                 transition={false}

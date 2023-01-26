@@ -13,17 +13,27 @@
     font-weight: bold;
 }
 
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
 .project-card {
     background-image: url(/src/assets/images/background2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid white;
+    margin-bottom: 25px;
 }
 
 .project-card-header {
     background-color: black;
     font-weight: bold;
     font-size: 22px;
+    border: 1px solid white;
 }
 
 .project-name {
