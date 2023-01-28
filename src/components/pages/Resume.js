@@ -22,7 +22,7 @@ export default function Resume() {
             </div>
             <div className="container">
                 <div className="resume row">
-                    <div className='resume-card card-body'>
+                    <div className='resume-card row card-body'>
                         <div className='col-sm-12'>
                             <h3 className='resume-card-title'>
                                 Resume:
